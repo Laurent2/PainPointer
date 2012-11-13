@@ -7,155 +7,155 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4122428A1651D67F00782AAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412242891651D67F00782AAE /* UIKit.framework */; };
-		4122428C1651D67F00782AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4122428B1651D67F00782AAE /* Foundation.framework */; };
-		4122428E1651D67F00782AAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4122428D1651D67F00782AAE /* CoreGraphics.framework */; };
-		412242941651D67F00782AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 412242921651D67F00782AAE /* InfoPlist.strings */; };
-		412242961651D67F00782AAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 412242951651D67F00782AAE /* main.m */; };
-		4122429A1651D67F00782AAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 412242991651D67F00782AAE /* AppDelegate.m */; };
-		4122429C1651D67F00782AAE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4122429B1651D67F00782AAE /* Default.png */; };
-		4122429E1651D67F00782AAE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4122429D1651D67F00782AAE /* Default@2x.png */; };
-		412242A01651D67F00782AAE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4122429F1651D67F00782AAE /* Default-568h@2x.png */; };
-		412242A31651D67F00782AAE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412242A11651D67F00782AAE /* MainStoryboard.storyboard */; };
-		412242A61651D67F00782AAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412242A51651D67F00782AAE /* ViewController.m */; };
-		412242AE1651D67F00782AAE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412242AD1651D67F00782AAE /* SenTestingKit.framework */; };
-		412242AF1651D67F00782AAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412242891651D67F00782AAE /* UIKit.framework */; };
-		412242B01651D67F00782AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4122428B1651D67F00782AAE /* Foundation.framework */; };
-		412242B81651D67F00782AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 412242B61651D67F00782AAE /* InfoPlist.strings */; };
-		412242BB1651D67F00782AAE /* PainPointerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 412242BA1651D67F00782AAE /* PainPointerTests.m */; };
+		41325D841652F5AA004BBD9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41325D831652F5AA004BBD9B /* UIKit.framework */; };
+		41325D861652F5AA004BBD9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41325D851652F5AA004BBD9B /* Foundation.framework */; };
+		41325D881652F5AA004BBD9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41325D871652F5AA004BBD9B /* CoreGraphics.framework */; };
+		41325D8E1652F5AA004BBD9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41325D8C1652F5AA004BBD9B /* InfoPlist.strings */; };
+		41325D901652F5AA004BBD9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41325D8F1652F5AA004BBD9B /* main.m */; };
+		41325D941652F5AA004BBD9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41325D931652F5AA004BBD9B /* AppDelegate.m */; };
+		41325D961652F5AA004BBD9B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 41325D951652F5AA004BBD9B /* Default.png */; };
+		41325D981652F5AA004BBD9B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41325D971652F5AA004BBD9B /* Default@2x.png */; };
+		41325D9A1652F5AA004BBD9B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41325D991652F5AA004BBD9B /* Default-568h@2x.png */; };
+		41325D9D1652F5AA004BBD9B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41325D9B1652F5AA004BBD9B /* MainStoryboard.storyboard */; };
+		41325DA01652F5AA004BBD9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41325D9F1652F5AA004BBD9B /* ViewController.m */; };
+		41325DA81652F5AA004BBD9B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41325DA71652F5AA004BBD9B /* SenTestingKit.framework */; };
+		41325DA91652F5AA004BBD9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41325D831652F5AA004BBD9B /* UIKit.framework */; };
+		41325DAA1652F5AA004BBD9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41325D851652F5AA004BBD9B /* Foundation.framework */; };
+		41325DB21652F5AA004BBD9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41325DB01652F5AA004BBD9B /* InfoPlist.strings */; };
+		41325DB51652F5AA004BBD9B /* PainPointerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41325DB41652F5AA004BBD9B /* PainPointerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		412242B11651D67F00782AAE /* PBXContainerItemProxy */ = {
+		41325DAB1652F5AA004BBD9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4122427C1651D67E00782AAE /* Project object */;
+			containerPortal = 41325D761652F5AA004BBD9B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 412242841651D67F00782AAE;
+			remoteGlobalIDString = 41325D7E1652F5AA004BBD9B;
 			remoteInfo = PainPointer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		412242851651D67F00782AAE /* PainPointer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PainPointer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		412242891651D67F00782AAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		4122428B1651D67F00782AAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4122428D1651D67F00782AAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		412242911651D67F00782AAE /* PainPointer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PainPointer-Info.plist"; sourceTree = "<group>"; };
-		412242931651D67F00782AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		412242951651D67F00782AAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		412242971651D67F00782AAE /* PainPointer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PainPointer-Prefix.pch"; sourceTree = "<group>"; };
-		412242981651D67F00782AAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		412242991651D67F00782AAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4122429B1651D67F00782AAE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		4122429D1651D67F00782AAE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		4122429F1651D67F00782AAE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		412242A21651D67F00782AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		412242A41651D67F00782AAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		412242A51651D67F00782AAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		412242AC1651D67F00782AAE /* PainPointerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PainPointerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		412242AD1651D67F00782AAE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		412242B51651D67F00782AAE /* PainPointerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PainPointerTests-Info.plist"; sourceTree = "<group>"; };
-		412242B71651D67F00782AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		412242B91651D67F00782AAE /* PainPointerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PainPointerTests.h; sourceTree = "<group>"; };
-		412242BA1651D67F00782AAE /* PainPointerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PainPointerTests.m; sourceTree = "<group>"; };
+		41325D7F1652F5AA004BBD9B /* PainPointer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PainPointer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41325D831652F5AA004BBD9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41325D851652F5AA004BBD9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41325D871652F5AA004BBD9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41325D8B1652F5AA004BBD9B /* PainPointer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PainPointer-Info.plist"; sourceTree = "<group>"; };
+		41325D8D1652F5AA004BBD9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41325D8F1652F5AA004BBD9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41325D911652F5AA004BBD9B /* PainPointer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PainPointer-Prefix.pch"; sourceTree = "<group>"; };
+		41325D921652F5AA004BBD9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41325D931652F5AA004BBD9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41325D951652F5AA004BBD9B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		41325D971652F5AA004BBD9B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		41325D991652F5AA004BBD9B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		41325D9C1652F5AA004BBD9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		41325D9E1652F5AA004BBD9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41325D9F1652F5AA004BBD9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41325DA61652F5AA004BBD9B /* PainPointerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PainPointerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41325DA71652F5AA004BBD9B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		41325DAF1652F5AA004BBD9B /* PainPointerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PainPointerTests-Info.plist"; sourceTree = "<group>"; };
+		41325DB11652F5AA004BBD9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41325DB31652F5AA004BBD9B /* PainPointerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PainPointerTests.h; sourceTree = "<group>"; };
+		41325DB41652F5AA004BBD9B /* PainPointerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PainPointerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		412242821651D67F00782AAE /* Frameworks */ = {
+		41325D7C1652F5AA004BBD9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4122428A1651D67F00782AAE /* UIKit.framework in Frameworks */,
-				4122428C1651D67F00782AAE /* Foundation.framework in Frameworks */,
-				4122428E1651D67F00782AAE /* CoreGraphics.framework in Frameworks */,
+				41325D841652F5AA004BBD9B /* UIKit.framework in Frameworks */,
+				41325D861652F5AA004BBD9B /* Foundation.framework in Frameworks */,
+				41325D881652F5AA004BBD9B /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		412242A81651D67F00782AAE /* Frameworks */ = {
+		41325DA21652F5AA004BBD9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412242AE1651D67F00782AAE /* SenTestingKit.framework in Frameworks */,
-				412242AF1651D67F00782AAE /* UIKit.framework in Frameworks */,
-				412242B01651D67F00782AAE /* Foundation.framework in Frameworks */,
+				41325DA81652F5AA004BBD9B /* SenTestingKit.framework in Frameworks */,
+				41325DA91652F5AA004BBD9B /* UIKit.framework in Frameworks */,
+				41325DAA1652F5AA004BBD9B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4122427A1651D67E00782AAE = {
+		41325D741652F5AA004BBD9B = {
 			isa = PBXGroup;
 			children = (
-				4122428F1651D67F00782AAE /* PainPointer */,
-				412242B31651D67F00782AAE /* PainPointerTests */,
-				412242881651D67F00782AAE /* Frameworks */,
-				412242861651D67F00782AAE /* Products */,
+				41325D891652F5AA004BBD9B /* PainPointer */,
+				41325DAD1652F5AA004BBD9B /* PainPointerTests */,
+				41325D821652F5AA004BBD9B /* Frameworks */,
+				41325D801652F5AA004BBD9B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		412242861651D67F00782AAE /* Products */ = {
+		41325D801652F5AA004BBD9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				412242851651D67F00782AAE /* PainPointer.app */,
-				412242AC1651D67F00782AAE /* PainPointerTests.octest */,
+				41325D7F1652F5AA004BBD9B /* PainPointer.app */,
+				41325DA61652F5AA004BBD9B /* PainPointerTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		412242881651D67F00782AAE /* Frameworks */ = {
+		41325D821652F5AA004BBD9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				412242891651D67F00782AAE /* UIKit.framework */,
-				4122428B1651D67F00782AAE /* Foundation.framework */,
-				4122428D1651D67F00782AAE /* CoreGraphics.framework */,
-				412242AD1651D67F00782AAE /* SenTestingKit.framework */,
+				41325D831652F5AA004BBD9B /* UIKit.framework */,
+				41325D851652F5AA004BBD9B /* Foundation.framework */,
+				41325D871652F5AA004BBD9B /* CoreGraphics.framework */,
+				41325DA71652F5AA004BBD9B /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4122428F1651D67F00782AAE /* PainPointer */ = {
+		41325D891652F5AA004BBD9B /* PainPointer */ = {
 			isa = PBXGroup;
 			children = (
-				412242981651D67F00782AAE /* AppDelegate.h */,
-				412242991651D67F00782AAE /* AppDelegate.m */,
-				412242A11651D67F00782AAE /* MainStoryboard.storyboard */,
-				412242A41651D67F00782AAE /* ViewController.h */,
-				412242A51651D67F00782AAE /* ViewController.m */,
-				412242901651D67F00782AAE /* Supporting Files */,
+				41325D921652F5AA004BBD9B /* AppDelegate.h */,
+				41325D931652F5AA004BBD9B /* AppDelegate.m */,
+				41325D9B1652F5AA004BBD9B /* MainStoryboard.storyboard */,
+				41325D9E1652F5AA004BBD9B /* ViewController.h */,
+				41325D9F1652F5AA004BBD9B /* ViewController.m */,
+				41325D8A1652F5AA004BBD9B /* Supporting Files */,
 			);
 			path = PainPointer;
 			sourceTree = "<group>";
 		};
-		412242901651D67F00782AAE /* Supporting Files */ = {
+		41325D8A1652F5AA004BBD9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				412242911651D67F00782AAE /* PainPointer-Info.plist */,
-				412242921651D67F00782AAE /* InfoPlist.strings */,
-				412242951651D67F00782AAE /* main.m */,
-				412242971651D67F00782AAE /* PainPointer-Prefix.pch */,
-				4122429B1651D67F00782AAE /* Default.png */,
-				4122429D1651D67F00782AAE /* Default@2x.png */,
-				4122429F1651D67F00782AAE /* Default-568h@2x.png */,
+				41325D8B1652F5AA004BBD9B /* PainPointer-Info.plist */,
+				41325D8C1652F5AA004BBD9B /* InfoPlist.strings */,
+				41325D8F1652F5AA004BBD9B /* main.m */,
+				41325D911652F5AA004BBD9B /* PainPointer-Prefix.pch */,
+				41325D951652F5AA004BBD9B /* Default.png */,
+				41325D971652F5AA004BBD9B /* Default@2x.png */,
+				41325D991652F5AA004BBD9B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		412242B31651D67F00782AAE /* PainPointerTests */ = {
+		41325DAD1652F5AA004BBD9B /* PainPointerTests */ = {
 			isa = PBXGroup;
 			children = (
-				412242B91651D67F00782AAE /* PainPointerTests.h */,
-				412242BA1651D67F00782AAE /* PainPointerTests.m */,
-				412242B41651D67F00782AAE /* Supporting Files */,
+				41325DB31652F5AA004BBD9B /* PainPointerTests.h */,
+				41325DB41652F5AA004BBD9B /* PainPointerTests.m */,
+				41325DAE1652F5AA004BBD9B /* Supporting Files */,
 			);
 			path = PainPointerTests;
 			sourceTree = "<group>";
 		};
-		412242B41651D67F00782AAE /* Supporting Files */ = {
+		41325DAE1652F5AA004BBD9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				412242B51651D67F00782AAE /* PainPointerTests-Info.plist */,
-				412242B61651D67F00782AAE /* InfoPlist.strings */,
+				41325DAF1652F5AA004BBD9B /* PainPointerTests-Info.plist */,
+				41325DB01652F5AA004BBD9B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,13 +163,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		412242841651D67F00782AAE /* PainPointer */ = {
+		41325D7E1652F5AA004BBD9B /* PainPointer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 412242BE1651D67F00782AAE /* Build configuration list for PBXNativeTarget "PainPointer" */;
+			buildConfigurationList = 41325DB81652F5AA004BBD9B /* Build configuration list for PBXNativeTarget "PainPointer" */;
 			buildPhases = (
-				412242811651D67F00782AAE /* Sources */,
-				412242821651D67F00782AAE /* Frameworks */,
-				412242831651D67F00782AAE /* Resources */,
+				41325D7B1652F5AA004BBD9B /* Sources */,
+				41325D7C1652F5AA004BBD9B /* Frameworks */,
+				41325D7D1652F5AA004BBD9B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -177,80 +177,80 @@
 			);
 			name = PainPointer;
 			productName = PainPointer;
-			productReference = 412242851651D67F00782AAE /* PainPointer.app */;
+			productReference = 41325D7F1652F5AA004BBD9B /* PainPointer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		412242AB1651D67F00782AAE /* PainPointerTests */ = {
+		41325DA51652F5AA004BBD9B /* PainPointerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 412242C11651D67F00782AAE /* Build configuration list for PBXNativeTarget "PainPointerTests" */;
+			buildConfigurationList = 41325DBB1652F5AA004BBD9B /* Build configuration list for PBXNativeTarget "PainPointerTests" */;
 			buildPhases = (
-				412242A71651D67F00782AAE /* Sources */,
-				412242A81651D67F00782AAE /* Frameworks */,
-				412242A91651D67F00782AAE /* Resources */,
-				412242AA1651D67F00782AAE /* ShellScript */,
+				41325DA11652F5AA004BBD9B /* Sources */,
+				41325DA21652F5AA004BBD9B /* Frameworks */,
+				41325DA31652F5AA004BBD9B /* Resources */,
+				41325DA41652F5AA004BBD9B /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				412242B21651D67F00782AAE /* PBXTargetDependency */,
+				41325DAC1652F5AA004BBD9B /* PBXTargetDependency */,
 			);
 			name = PainPointerTests;
 			productName = PainPointerTests;
-			productReference = 412242AC1651D67F00782AAE /* PainPointerTests.octest */;
+			productReference = 41325DA61652F5AA004BBD9B /* PainPointerTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4122427C1651D67E00782AAE /* Project object */ = {
+		41325D761652F5AA004BBD9B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "App Jam";
 			};
-			buildConfigurationList = 4122427F1651D67E00782AAE /* Build configuration list for PBXProject "PainPointer" */;
+			buildConfigurationList = 41325D791652F5AA004BBD9B /* Build configuration list for PBXProject "PainPointer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4122427A1651D67E00782AAE;
-			productRefGroup = 412242861651D67F00782AAE /* Products */;
+			mainGroup = 41325D741652F5AA004BBD9B;
+			productRefGroup = 41325D801652F5AA004BBD9B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				412242841651D67F00782AAE /* PainPointer */,
-				412242AB1651D67F00782AAE /* PainPointerTests */,
+				41325D7E1652F5AA004BBD9B /* PainPointer */,
+				41325DA51652F5AA004BBD9B /* PainPointerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		412242831651D67F00782AAE /* Resources */ = {
+		41325D7D1652F5AA004BBD9B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412242941651D67F00782AAE /* InfoPlist.strings in Resources */,
-				4122429C1651D67F00782AAE /* Default.png in Resources */,
-				4122429E1651D67F00782AAE /* Default@2x.png in Resources */,
-				412242A01651D67F00782AAE /* Default-568h@2x.png in Resources */,
-				412242A31651D67F00782AAE /* MainStoryboard.storyboard in Resources */,
+				41325D8E1652F5AA004BBD9B /* InfoPlist.strings in Resources */,
+				41325D961652F5AA004BBD9B /* Default.png in Resources */,
+				41325D981652F5AA004BBD9B /* Default@2x.png in Resources */,
+				41325D9A1652F5AA004BBD9B /* Default-568h@2x.png in Resources */,
+				41325D9D1652F5AA004BBD9B /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		412242A91651D67F00782AAE /* Resources */ = {
+		41325DA31652F5AA004BBD9B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412242B81651D67F00782AAE /* InfoPlist.strings in Resources */,
+				41325DB21652F5AA004BBD9B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		412242AA1651D67F00782AAE /* ShellScript */ = {
+		41325DA41652F5AA004BBD9B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,55 +266,55 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		412242811651D67F00782AAE /* Sources */ = {
+		41325D7B1652F5AA004BBD9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412242961651D67F00782AAE /* main.m in Sources */,
-				4122429A1651D67F00782AAE /* AppDelegate.m in Sources */,
-				412242A61651D67F00782AAE /* ViewController.m in Sources */,
+				41325D901652F5AA004BBD9B /* main.m in Sources */,
+				41325D941652F5AA004BBD9B /* AppDelegate.m in Sources */,
+				41325DA01652F5AA004BBD9B /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		412242A71651D67F00782AAE /* Sources */ = {
+		41325DA11652F5AA004BBD9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412242BB1651D67F00782AAE /* PainPointerTests.m in Sources */,
+				41325DB51652F5AA004BBD9B /* PainPointerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		412242B21651D67F00782AAE /* PBXTargetDependency */ = {
+		41325DAC1652F5AA004BBD9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 412242841651D67F00782AAE /* PainPointer */;
-			targetProxy = 412242B11651D67F00782AAE /* PBXContainerItemProxy */;
+			target = 41325D7E1652F5AA004BBD9B /* PainPointer */;
+			targetProxy = 41325DAB1652F5AA004BBD9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		412242921651D67F00782AAE /* InfoPlist.strings */ = {
+		41325D8C1652F5AA004BBD9B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				412242931651D67F00782AAE /* en */,
+				41325D8D1652F5AA004BBD9B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		412242A11651D67F00782AAE /* MainStoryboard.storyboard */ = {
+		41325D9B1652F5AA004BBD9B /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				412242A21651D67F00782AAE /* en */,
+				41325D9C1652F5AA004BBD9B /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
-		412242B61651D67F00782AAE /* InfoPlist.strings */ = {
+		41325DB01652F5AA004BBD9B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				412242B71651D67F00782AAE /* en */,
+				41325DB11652F5AA004BBD9B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -322,7 +322,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		412242BC1651D67F00782AAE /* Debug */ = {
+		41325DB61652F5AA004BBD9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -347,10 +347,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
-		412242BD1651D67F00782AAE /* Release */ = {
+		41325DB71652F5AA004BBD9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -368,11 +369,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		412242BF1651D67F00782AAE /* Debug */ = {
+		41325DB91652F5AA004BBD9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -383,7 +385,7 @@
 			};
 			name = Debug;
 		};
-		412242C01651D67F00782AAE /* Release */ = {
+		41325DBA1652F5AA004BBD9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -394,7 +396,7 @@
 			};
 			name = Release;
 		};
-		412242C21651D67F00782AAE /* Debug */ = {
+		41325DBC1652F5AA004BBD9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PainPointer.app/PainPointer";
@@ -411,7 +413,7 @@
 			};
 			name = Debug;
 		};
-		412242C31651D67F00782AAE /* Release */ = {
+		41325DBD1652F5AA004BBD9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PainPointer.app/PainPointer";
@@ -431,32 +433,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4122427F1651D67E00782AAE /* Build configuration list for PBXProject "PainPointer" */ = {
+		41325D791652F5AA004BBD9B /* Build configuration list for PBXProject "PainPointer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				412242BC1651D67F00782AAE /* Debug */,
-				412242BD1651D67F00782AAE /* Release */,
+				41325DB61652F5AA004BBD9B /* Debug */,
+				41325DB71652F5AA004BBD9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		412242BE1651D67F00782AAE /* Build configuration list for PBXNativeTarget "PainPointer" */ = {
+		41325DB81652F5AA004BBD9B /* Build configuration list for PBXNativeTarget "PainPointer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				412242BF1651D67F00782AAE /* Debug */,
-				412242C01651D67F00782AAE /* Release */,
+				41325DB91652F5AA004BBD9B /* Debug */,
+				41325DBA1652F5AA004BBD9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		412242C11651D67F00782AAE /* Build configuration list for PBXNativeTarget "PainPointerTests" */ = {
+		41325DBB1652F5AA004BBD9B /* Build configuration list for PBXNativeTarget "PainPointerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				412242C21651D67F00782AAE /* Debug */,
-				412242C31651D67F00782AAE /* Release */,
+				41325DBC1652F5AA004BBD9B /* Debug */,
+				41325DBD1652F5AA004BBD9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4122427C1651D67E00782AAE /* Project object */;
+	rootObject = 41325D761652F5AA004BBD9B /* Project object */;
 }
