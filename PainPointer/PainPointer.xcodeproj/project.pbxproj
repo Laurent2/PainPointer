@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		075A8B861653194F006DD2E9 /* Human_body_silhouette.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 075A8B851653194F006DD2E9 /* Human_body_silhouette.svg.png */; };
 		41325D841652F5AA004BBD9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41325D831652F5AA004BBD9B /* UIKit.framework */; };
 		41325D861652F5AA004BBD9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41325D851652F5AA004BBD9B /* Foundation.framework */; };
 		41325D881652F5AA004BBD9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41325D871652F5AA004BBD9B /* CoreGraphics.framework */; };
@@ -18,12 +17,19 @@
 		41325D981652F5AA004BBD9B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41325D971652F5AA004BBD9B /* Default@2x.png */; };
 		41325D9A1652F5AA004BBD9B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41325D991652F5AA004BBD9B /* Default-568h@2x.png */; };
 		41325D9D1652F5AA004BBD9B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41325D9B1652F5AA004BBD9B /* MainStoryboard.storyboard */; };
-		41325DA01652F5AA004BBD9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41325D9F1652F5AA004BBD9B /* ViewController.m */; };
 		41325DA81652F5AA004BBD9B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41325DA71652F5AA004BBD9B /* SenTestingKit.framework */; };
 		41325DA91652F5AA004BBD9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41325D831652F5AA004BBD9B /* UIKit.framework */; };
 		41325DAA1652F5AA004BBD9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41325D851652F5AA004BBD9B /* Foundation.framework */; };
 		41325DB21652F5AA004BBD9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41325DB01652F5AA004BBD9B /* InfoPlist.strings */; };
 		41325DB51652F5AA004BBD9B /* PainPointerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41325DB41652F5AA004BBD9B /* PainPointerTests.m */; };
+		D01A68811653ADFF0006EABC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01A68801653ADFF0006EABC /* ViewController.m */; };
+		D07896E916533B38004D6B24 /* GeneralFeelsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D07896E816533B38004D6B24 /* GeneralFeelsCell.m */; };
+		D07896ED16534200004D6B24 /* hungry.png in Resources */ = {isa = PBXBuildFile; fileRef = D07896EA16534200004D6B24 /* hungry.png */; };
+		D07896EE16534200004D6B24 /* dizzy.png in Resources */ = {isa = PBXBuildFile; fileRef = D07896EB16534200004D6B24 /* dizzy.png */; };
+		D07896EF16534200004D6B24 /* sick.png in Resources */ = {isa = PBXBuildFile; fileRef = D07896EC16534200004D6B24 /* sick.png */; };
+		D0A719B416558263001B231E /* checkbox-checked.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A719B116558263001B231E /* checkbox-checked.png */; };
+		D0A719B516558263001B231E /* checkbox-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A719B216558263001B231E /* checkbox-pressed.png */; };
+		D0A719B616558263001B231E /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A719B316558263001B231E /* checkbox.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		075A8B851653194F006DD2E9 /* Human_body_silhouette.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Human_body_silhouette.svg.png; path = ../../../Human_body_silhouette.svg.png; sourceTree = "<group>"; };
 		41325D7F1652F5AA004BBD9B /* PainPointer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PainPointer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41325D831652F5AA004BBD9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		41325D851652F5AA004BBD9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,14 +57,22 @@
 		41325D971652F5AA004BBD9B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		41325D991652F5AA004BBD9B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		41325D9C1652F5AA004BBD9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		41325D9E1652F5AA004BBD9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		41325D9F1652F5AA004BBD9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		41325DA61652F5AA004BBD9B /* PainPointerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PainPointerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41325DA71652F5AA004BBD9B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		41325DAF1652F5AA004BBD9B /* PainPointerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PainPointerTests-Info.plist"; sourceTree = "<group>"; };
 		41325DB11652F5AA004BBD9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		41325DB31652F5AA004BBD9B /* PainPointerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PainPointerTests.h; sourceTree = "<group>"; };
 		41325DB41652F5AA004BBD9B /* PainPointerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PainPointerTests.m; sourceTree = "<group>"; };
+		D01A687F1653ADFF0006EABC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D01A68801653ADFF0006EABC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D07896E716533B38004D6B24 /* GeneralFeelsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralFeelsCell.h; sourceTree = "<group>"; };
+		D07896E816533B38004D6B24 /* GeneralFeelsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralFeelsCell.m; sourceTree = "<group>"; };
+		D07896EA16534200004D6B24 /* hungry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hungry.png; sourceTree = "<group>"; };
+		D07896EB16534200004D6B24 /* dizzy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dizzy.png; sourceTree = "<group>"; };
+		D07896EC16534200004D6B24 /* sick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sick.png; sourceTree = "<group>"; };
+		D0A719B116558263001B231E /* checkbox-checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-checked.png"; sourceTree = "<group>"; };
+		D0A719B216558263001B231E /* checkbox-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox-pressed.png"; sourceTree = "<group>"; };
+		D0A719B316558263001B231E /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,12 +132,19 @@
 		41325D891652F5AA004BBD9B /* PainPointer */ = {
 			isa = PBXGroup;
 			children = (
-				075A8B851653194F006DD2E9 /* Human_body_silhouette.svg.png */,
+				D0A719B116558263001B231E /* checkbox-checked.png */,
+				D0A719B216558263001B231E /* checkbox-pressed.png */,
+				D0A719B316558263001B231E /* checkbox.png */,
+				D07896EA16534200004D6B24 /* hungry.png */,
+				D07896EB16534200004D6B24 /* dizzy.png */,
+				D07896EC16534200004D6B24 /* sick.png */,
 				41325D921652F5AA004BBD9B /* AppDelegate.h */,
 				41325D931652F5AA004BBD9B /* AppDelegate.m */,
 				41325D9B1652F5AA004BBD9B /* MainStoryboard.storyboard */,
-				41325D9E1652F5AA004BBD9B /* ViewController.h */,
-				41325D9F1652F5AA004BBD9B /* ViewController.m */,
+				D01A687F1653ADFF0006EABC /* ViewController.h */,
+				D01A68801653ADFF0006EABC /* ViewController.m */,
+				D07896E716533B38004D6B24 /* GeneralFeelsCell.h */,
+				D07896E816533B38004D6B24 /* GeneralFeelsCell.m */,
 				41325D8A1652F5AA004BBD9B /* Supporting Files */,
 			);
 			path = PainPointer;
@@ -239,7 +259,12 @@
 				41325D981652F5AA004BBD9B /* Default@2x.png in Resources */,
 				41325D9A1652F5AA004BBD9B /* Default-568h@2x.png in Resources */,
 				41325D9D1652F5AA004BBD9B /* MainStoryboard.storyboard in Resources */,
-				075A8B861653194F006DD2E9 /* Human_body_silhouette.svg.png in Resources */,
+				D07896ED16534200004D6B24 /* hungry.png in Resources */,
+				D07896EE16534200004D6B24 /* dizzy.png in Resources */,
+				D07896EF16534200004D6B24 /* sick.png in Resources */,
+				D0A719B416558263001B231E /* checkbox-checked.png in Resources */,
+				D0A719B516558263001B231E /* checkbox-pressed.png in Resources */,
+				D0A719B616558263001B231E /* checkbox.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +301,8 @@
 			files = (
 				41325D901652F5AA004BBD9B /* main.m in Sources */,
 				41325D941652F5AA004BBD9B /* AppDelegate.m in Sources */,
-				41325DA01652F5AA004BBD9B /* ViewController.m in Sources */,
+				D07896E916533B38004D6B24 /* GeneralFeelsCell.m in Sources */,
+				D01A68811653ADFF0006EABC /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

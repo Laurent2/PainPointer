@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="vMK-my-NCP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="vMK-my-NCP">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--View Controller - Body Screen-->
         <scene sceneID="4">
             <objects>
-                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="Body Screen" id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5">
-                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <rect key="frame" x="0.0" y="20" width="768" height="960"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Human_body_silhouette.svg.png" translatesAutoresizingMaskIntoConstraints="NO" id="rFQ-mA-okk">
@@ -161,10 +161,10 @@
             </objects>
             <point key="canvasLocation" x="854" y="962"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Torso Screen-->
         <scene sceneID="laz-2O-oFh">
             <objects>
-                <viewController id="lL5-26-IBW" sceneMemberID="viewController">
+                <viewController title="Torso Screen" id="lL5-26-IBW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SrO-HY-kgb">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -197,10 +197,10 @@
             </objects>
             <point key="canvasLocation" x="1768" y="962"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Right Arm Screen-->
         <scene sceneID="cpy-sf-YKH">
             <objects>
-                <viewController id="BWR-h5-tEs" sceneMemberID="viewController">
+                <viewController title="Right Arm Screen" id="BWR-h5-tEs" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aqZ-IF-pXN">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -233,10 +233,10 @@
             </objects>
             <point key="canvasLocation" x="-133" y="-244"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Head Screen-->
         <scene sceneID="t58-Dv-1mq">
             <objects>
-                <viewController id="Ai9-ZL-COz" sceneMemberID="viewController">
+                <viewController title="Head Screen" id="Ai9-ZL-COz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a6o-V0-f3A">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -269,10 +269,10 @@
             </objects>
             <point key="canvasLocation" x="854" y="-244"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Left Arm Screen-->
         <scene sceneID="mWa-o6-n1z">
             <objects>
-                <viewController id="6yI-h4-uxY" sceneMemberID="viewController">
+                <viewController title="Left Arm Screen" id="6yI-h4-uxY" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ByN-g9-twu">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -323,10 +323,10 @@
             </objects>
             <point key="canvasLocation" x="-133" y="962"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Right Leg Screen-->
         <scene sceneID="qNM-wY-wil">
             <objects>
-                <viewController id="ItV-3M-E0L" sceneMemberID="viewController">
+                <viewController title="Right Leg Screen" id="ItV-3M-E0L" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MI9-Uk-fD5">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -359,30 +359,91 @@
             </objects>
             <point key="canvasLocation" x="-133" y="2209"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - GeneralFeelings-->
         <scene sceneID="7lO-X6-Fg9">
             <objects>
-                <viewController id="x8Y-bH-NPf" sceneMemberID="viewController">
+                <viewController title="GeneralFeelings" wantsFullScreenLayout="YES" id="x8Y-bH-NPf" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f4t-oQ-ghf">
-                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <rect key="frame" x="0.0" y="20" width="768" height="960"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="General Feeling Screen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="221" translatesAutoresizingMaskIntoConstraints="NO" id="NkV-FD-kLk">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="WiO-Ug-ojz">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="138" id="1sL-dv-1vj"/>
-                                    <constraint firstAttribute="width" constant="221" id="fs2-wA-bfu"/>
+                                    <constraint firstAttribute="height" constant="1004" id="hBS-Pt-qBU"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Usw-W5-Qkt">
+                                    <size key="itemSize" width="194" height="189"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="SvT-gX-x9X" customClass="GeneralFeelsCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="194" height="189"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="194" height="189"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vNV-qS-ptH">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="66" id="hrk-Ff-eCd"/>
+                                                        <constraint firstAttribute="height" constant="32" id="jya-rR-OBc"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="dxL-iG-amf">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="136" id="6A8-DN-hYt"/>
+                                                        <constraint firstAttribute="height" constant="116" id="Yaf-M6-ARA"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="dxL-iG-amf" firstAttribute="top" secondItem="SvT-gX-x9X" secondAttribute="top" constant="20" type="default" id="N1b-yz-1w1"/>
+                                            <constraint firstItem="vNV-qS-ptH" firstAttribute="top" secondItem="dxL-iG-amf" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="U2S-Cl-vra"/>
+                                            <constraint firstItem="dxL-iG-amf" firstAttribute="centerX" secondItem="vNV-qS-ptH" secondAttribute="centerX" type="default" id="cZ4-4t-wS9"/>
+                                            <constraint firstItem="vNV-qS-ptH" firstAttribute="centerX" secondItem="SvT-gX-x9X" secondAttribute="centerX" type="default" id="mwb-9i-G1N"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="iconImage" destination="dxL-iG-amf" id="YkA-gn-7Kn"/>
+                                            <outlet property="label" destination="vNV-qS-ptH" id="XEq-PA-3W1"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wu8-Y0-gdO">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="QAH-Km-Y78"/>
+                                    <constraint firstAttribute="width" constant="188" id="tBP-pd-YFS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="checkbox.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.77375565609999997" green="0.0" blue="0.25770069499999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" image="checkbox-checked.png"/>
+                                <state key="highlighted" image="checkbox-pressed.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="NkV-FD-kLk" firstAttribute="leading" secondItem="f4t-oQ-ghf" secondAttribute="leading" constant="275" id="cSY-JK-kPy"/>
-                            <constraint firstItem="NkV-FD-kLk" firstAttribute="top" secondItem="f4t-oQ-ghf" secondAttribute="top" constant="410" id="ywy-Hm-77e"/>
+                            <constraint firstItem="Wu8-Y0-gdO" firstAttribute="top" secondItem="f4t-oQ-ghf" secondAttribute="top" constant="189" id="9lH-Jb-Oip"/>
+                            <constraint firstItem="WiO-Ug-ojz" firstAttribute="leading" secondItem="f4t-oQ-ghf" secondAttribute="leading" type="default" id="H5u-s4-NIQ"/>
+                            <constraint firstAttribute="centerX" secondItem="WiO-Ug-ojz" secondAttribute="centerX" type="user" id="h6a-lb-4OF"/>
+                            <constraint firstItem="WiO-Ug-ojz" firstAttribute="top" secondItem="f4t-oQ-ghf" secondAttribute="top" type="default" id="hRl-ac-6ca"/>
+                            <constraint firstItem="Wu8-Y0-gdO" firstAttribute="leading" secondItem="f4t-oQ-ghf" secondAttribute="leading" type="default" id="iLP-z4-J9j"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="z18-cm-igI">
                         <barButtonItem key="rightBarButtonItem" title="Boby" id="42t-xI-bmh">
                             <connections>
@@ -390,15 +451,20 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="checkButton" destination="Wu8-Y0-gdO" id="0gR-3h-Lun"/>
+                        <outlet property="generalFeelsView" destination="WiO-Ug-ojz" id="xkG-52-1Ex"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="84g-fw-iZN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="854" y="2209"/>
+            <point key="canvasLocation" x="806" y="2177"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Left Leg Screen-->
         <scene sceneID="BmY-7p-gN6">
             <objects>
-                <viewController id="GTl-EU-tPq" sceneMemberID="viewController">
+                <viewController title="Left Leg Screen" id="GTl-EU-tPq" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xsb-VK-9Ch">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -433,13 +499,38 @@
     </scenes>
     <resources>
         <image name="Human_body_silhouette.svg.png" width="2000" height="4536"/>
+        <image name="checkbox-checked.png" width="16" height="16"/>
+        <image name="checkbox-pressed.png" width="16" height="16"/>
+        <image name="checkbox.png" width="16" height="16"/>
     </resources>
     <classes>
+        <class className="GeneralFeelsCell" superclassName="UICollectionViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GeneralFeelsCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="iconImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="label" candidateClass="UILabel"/>
+            </relationships>
+        </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
         </class>
+        <class className="UICollectionReusableView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionReusableView.h"/>
+        </class>
+        <class className="UICollectionViewCell" superclassName="UICollectionReusableView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewCell.h"/>
+        </class>
+        <class className="UICollectionViewFlowLayout" superclassName="UICollectionViewLayout">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewFlowLayout.h"/>
+        </class>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="butn1" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="checkButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="generalFeelsView" candidateClass="UICollectionView"/>
+                <relationship kind="outlet" name="imgV" candidateClass="UIImageView"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -449,6 +540,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="Y0O-CR-VhF"/>
-        <segue reference="dGR-Au-T2j"/>
+        <segue reference="8Sb-Jv-KtN"/>
     </inferredMetricsTieBreakers>
 </document>
