@@ -166,7 +166,7 @@
                                     <constraint firstAttribute="width" constant="100" id="1GD-Bm-B5V"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Sharp">
+                                <state key="normal" title="Sharp" image="sharp.jpeg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -180,7 +180,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UKo-oq-0mJ">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Throbbing">
+                                <state key="normal" title="Throbbing" image="throbbing.jpg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -197,7 +197,7 @@
                                     <constraint firstAttribute="height" constant="99" type="user" id="Hlw-kp-Uia"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Burning">
+                                <state key="normal" title="Burning" image="burning.jpg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -211,7 +211,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6r2-p5-RKn">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Numb">
+                                <state key="normal" title="Numb" image="numb.jpg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -225,7 +225,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmZ-YD-jwC">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Pressure">
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -237,7 +237,11 @@
                                     <action selector="button_pressure" destination="Ai9-ZL-COz" eventType="touchUpInside" id="pYh-Qy-dlN"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="YUh-TN-hGL"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="YUh-TN-hGL">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="B1g-1m-iOz"/>
+                                </constraints>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="m4R-41-YRh"/>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="an8-A0-ULf">
                                 <constraints>
@@ -252,7 +256,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEx-Oa-FtP">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Tingling">
+                                <state key="normal" title="Tingling" image="acupuncture2.gif">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -269,7 +273,7 @@
                                     <constraint firstAttribute="height" constant="99" type="user" id="gkg-gn-0Zt"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Clear">
+                                <state key="normal" title="Clear" image="eraser.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -285,7 +289,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZbA-77-QbU"/>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkM-W3-kcO">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Itchy">
+                                <state key="normal" title="Itchy" image="itchy_1.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -298,11 +302,13 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="hIx-JM-ne8"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pressure.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Y0Q-7C-p1D"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="an8-A0-ULf" firstAttribute="top" secondItem="m4R-41-YRh" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="0mt-fI-PFk"/>
                             <constraint firstItem="ZPq-c3-roq" firstAttribute="top" secondItem="xkM-W3-kcO" secondAttribute="bottom" constant="11" type="user" id="0rT-Az-bZ9"/>
+                            <constraint firstItem="rqX-sd-iHk" firstAttribute="trailing" secondItem="x6b-Vj-rep" secondAttribute="trailing" type="default" id="1Tr-Pq-zCE"/>
                             <constraint firstItem="6r2-p5-RKn" firstAttribute="top" secondItem="UKo-oq-0mJ" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="21e-gc-UPs"/>
                             <constraint firstItem="bEx-Oa-FtP" firstAttribute="top" secondItem="fmZ-YD-jwC" secondAttribute="bottom" constant="8" type="user" id="2RX-cM-G7c"/>
                             <constraint firstItem="6r2-p5-RKn" firstAttribute="trailing" secondItem="4ZV-YZ-MdT" secondAttribute="trailing" type="default" id="2Zj-Lv-htl"/>
@@ -311,16 +317,20 @@
                             <constraint firstItem="rqX-sd-iHk" firstAttribute="leading" secondItem="ZbA-77-QbU" secondAttribute="leading" type="default" id="4t1-2i-rO2"/>
                             <constraint firstItem="x6b-Vj-rep" firstAttribute="top" secondItem="an8-A0-ULf" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="6ha-WC-9nh"/>
                             <constraint firstItem="rqX-sd-iHk" firstAttribute="top" secondItem="SrO-HY-kgb" secondAttribute="top" constant="458" id="8IW-1M-syl"/>
+                            <constraint firstItem="4ZV-YZ-MdT" firstAttribute="leading" secondItem="fmZ-YD-jwC" secondAttribute="leading" type="default" id="8Yl-zI-ydm"/>
                             <constraint firstItem="bEx-Oa-FtP" firstAttribute="height" secondItem="fmZ-YD-jwC" secondAttribute="height" type="user" id="92c-Lc-Thr"/>
                             <constraint firstItem="bEx-Oa-FtP" firstAttribute="top" secondItem="fmZ-YD-jwC" secondAttribute="bottom" constant="8" type="user" id="9JT-ws-GqM"/>
                             <constraint firstItem="bEx-Oa-FtP" firstAttribute="trailing" secondItem="fmZ-YD-jwC" secondAttribute="trailing" type="default" id="AQx-Xw-h3k"/>
-                            <constraint firstItem="A30-fe-aCy" firstAttribute="top" secondItem="SrO-HY-kgb" secondAttribute="top" constant="48" id="BBR-hC-Vam"/>
                             <constraint firstItem="xkM-W3-kcO" firstAttribute="leading" secondItem="bEx-Oa-FtP" secondAttribute="leading" type="default" id="ESv-r6-kSL"/>
                             <constraint firstItem="bEx-Oa-FtP" firstAttribute="height" secondItem="UKo-oq-0mJ" secondAttribute="height" type="user" id="Eet-Ne-MYj"/>
                             <constraint firstItem="bEx-Oa-FtP" firstAttribute="height" secondItem="xkM-W3-kcO" secondAttribute="height" type="user" id="FPH-rQ-LP1"/>
                             <constraint firstItem="UKo-oq-0mJ" firstAttribute="leading" secondItem="A30-fe-aCy" secondAttribute="leading" type="default" id="Fqr-Ev-XZP"/>
                             <constraint firstItem="hIx-JM-ne8" firstAttribute="leading" secondItem="ZPq-c3-roq" secondAttribute="leading" type="default" id="GlX-TO-ujd"/>
+                            <constraint firstItem="A30-fe-aCy" firstAttribute="top" secondItem="SrO-HY-kgb" secondAttribute="top" constant="48" id="KRo-uC-CIS"/>
+                            <constraint firstItem="m4R-41-YRh" firstAttribute="trailing" secondItem="an8-A0-ULf" secondAttribute="trailing" type="default" id="KbS-Ul-3Xb"/>
+                            <constraint firstItem="leW-sV-UNq" firstAttribute="top" secondItem="SrO-HY-kgb" secondAttribute="top" constant="400" id="Kou-8G-yN6"/>
                             <constraint firstItem="xkM-W3-kcO" firstAttribute="height" secondItem="ZPq-c3-roq" secondAttribute="height" type="user" id="LNg-uD-teq"/>
+                            <constraint firstItem="bEx-Oa-FtP" firstAttribute="leading" secondItem="fmZ-YD-jwC" secondAttribute="leading" type="default" id="M6r-zx-VSf"/>
                             <constraint firstItem="an8-A0-ULf" firstAttribute="leading" secondItem="x6b-Vj-rep" secondAttribute="leading" type="default" id="Mom-LJ-WtV"/>
                             <constraint firstItem="ZbA-77-QbU" firstAttribute="leading" secondItem="hIx-JM-ne8" secondAttribute="leading" type="default" id="MyI-Ye-6ek"/>
                             <constraint firstItem="YUh-TN-hGL" firstAttribute="leading" secondItem="SrO-HY-kgb" secondAttribute="leading" constant="147" id="N37-wD-au4"/>
@@ -328,34 +338,37 @@
                             <constraint firstItem="4ZV-YZ-MdT" firstAttribute="top" secondItem="6r2-p5-RKn" secondAttribute="bottom" constant="8" type="user" id="OsX-ZI-NRl"/>
                             <constraint firstItem="4ZV-YZ-MdT" firstAttribute="top" secondItem="6r2-p5-RKn" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="Rm5-bn-8J0"/>
                             <constraint firstItem="bEx-Oa-FtP" firstAttribute="height" secondItem="6r2-p5-RKn" secondAttribute="height" type="user" id="S7a-t7-DMp"/>
+                            <constraint firstItem="A30-fe-aCy" firstAttribute="leading" secondItem="SrO-HY-kgb" secondAttribute="leading" constant="29" id="S8i-lA-4FM"/>
                             <constraint firstItem="YUh-TN-hGL" firstAttribute="leading" secondItem="m4R-41-YRh" secondAttribute="leading" type="default" id="U90-Bc-NOI"/>
                             <constraint firstItem="ZbA-77-QbU" firstAttribute="top" secondItem="rqX-sd-iHk" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="W9R-4V-f66"/>
                             <constraint firstItem="UKo-oq-0mJ" firstAttribute="leading" secondItem="6r2-p5-RKn" secondAttribute="leading" type="default" id="YO9-Sm-4EX"/>
                             <constraint firstItem="xkM-W3-kcO" firstAttribute="top" secondItem="bEx-Oa-FtP" secondAttribute="bottom" constant="8" type="user" id="YyN-go-8Xs"/>
-                            <constraint firstItem="4ZV-YZ-MdT" firstAttribute="leading" secondItem="fmZ-YD-jwC" secondAttribute="leading" type="default" id="Zcd-I1-eyL"/>
                             <constraint firstItem="fmZ-YD-jwC" firstAttribute="top" secondItem="4ZV-YZ-MdT" secondAttribute="bottom" constant="8" type="user" id="ZfY-ow-QPD"/>
                             <constraint firstItem="YUh-TN-hGL" firstAttribute="top" secondItem="SrO-HY-kgb" secondAttribute="top" constant="31" id="a15-bV-MHj"/>
                             <constraint firstItem="xkM-W3-kcO" firstAttribute="height" secondItem="bEx-Oa-FtP" secondAttribute="height" type="user" id="anU-qQ-t6K"/>
-                            <constraint firstItem="fmZ-YD-jwC" firstAttribute="leading" secondItem="bEx-Oa-FtP" secondAttribute="leading" type="default" id="c4x-Er-72t"/>
+                            <constraint firstItem="Y0Q-7C-p1D" firstAttribute="centerX" secondItem="fmZ-YD-jwC" secondAttribute="centerX" type="default" id="bbw-r4-YwA"/>
                             <constraint firstItem="UKo-oq-0mJ" firstAttribute="top" secondItem="A30-fe-aCy" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="cBe-jx-rDj"/>
                             <constraint firstItem="UKo-oq-0mJ" firstAttribute="trailing" secondItem="A30-fe-aCy" secondAttribute="trailing" type="default" id="cYs-Cm-Vf0"/>
                             <constraint firstItem="bEx-Oa-FtP" firstAttribute="height" secondItem="4ZV-YZ-MdT" secondAttribute="height" type="user" id="eR8-gd-hch"/>
-                            <constraint firstItem="A30-fe-aCy" firstAttribute="leading" secondItem="SrO-HY-kgb" secondAttribute="leading" constant="29" id="eqP-6X-2SW"/>
                             <constraint firstItem="m4R-41-YRh" firstAttribute="top" secondItem="SrO-HY-kgb" secondAttribute="top" constant="136" id="ikx-cY-P1b"/>
                             <constraint firstItem="xkM-W3-kcO" firstAttribute="top" secondItem="bEx-Oa-FtP" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="jVi-4J-zJS"/>
+                            <constraint firstItem="hIx-JM-ne8" firstAttribute="trailing" secondItem="ZbA-77-QbU" secondAttribute="trailing" type="default" id="k82-XH-EoE"/>
                             <constraint firstItem="4ZV-YZ-MdT" firstAttribute="leading" secondItem="6r2-p5-RKn" secondAttribute="leading" type="default" id="kvj-al-FOP"/>
                             <constraint firstItem="hIx-JM-ne8" firstAttribute="top" secondItem="ZbA-77-QbU" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="mD7-qh-PIp"/>
+                            <constraint firstItem="YUh-TN-hGL" firstAttribute="trailing" secondItem="m4R-41-YRh" secondAttribute="trailing" type="default" id="mKs-ap-aKl"/>
                             <constraint firstItem="hIx-JM-ne8" firstAttribute="trailing" secondItem="ZPq-c3-roq" secondAttribute="trailing" type="default" id="n77-SV-xeb"/>
                             <constraint firstItem="xkM-W3-kcO" firstAttribute="trailing" secondItem="bEx-Oa-FtP" secondAttribute="trailing" type="default" id="nJi-RH-0xK"/>
                             <constraint firstItem="x6b-Vj-rep" firstAttribute="leading" secondItem="rqX-sd-iHk" secondAttribute="leading" type="default" id="ncC-FD-Di9"/>
+                            <constraint firstItem="Y0Q-7C-p1D" firstAttribute="centerY" secondItem="fmZ-YD-jwC" secondAttribute="centerY" type="default" id="sg7-b5-DmF"/>
                             <constraint firstItem="fmZ-YD-jwC" firstAttribute="top" secondItem="4ZV-YZ-MdT" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="trY-yI-Lvv"/>
                             <constraint firstItem="xkM-W3-kcO" firstAttribute="height" secondItem="fmZ-YD-jwC" secondAttribute="height" type="user" id="u2V-0h-MF0"/>
+                            <constraint firstItem="an8-A0-ULf" firstAttribute="trailing" secondItem="x6b-Vj-rep" secondAttribute="trailing" type="default" id="uzY-4Y-0Vr"/>
                             <constraint firstItem="6r2-p5-RKn" firstAttribute="top" secondItem="UKo-oq-0mJ" secondAttribute="bottom" constant="8" type="user" id="wPQ-gu-iIU"/>
                             <constraint firstItem="4ZV-YZ-MdT" firstAttribute="trailing" secondItem="fmZ-YD-jwC" secondAttribute="trailing" type="default" id="wdV-L5-6aU"/>
                             <constraint firstItem="bEx-Oa-FtP" firstAttribute="height" secondItem="A30-fe-aCy" secondAttribute="height" type="user" id="xW4-VC-r6U"/>
                             <constraint firstItem="UKo-oq-0mJ" firstAttribute="top" secondItem="A30-fe-aCy" secondAttribute="bottom" constant="8" type="user" id="yef-si-Efb"/>
                             <constraint firstItem="bEx-Oa-FtP" firstAttribute="top" secondItem="fmZ-YD-jwC" secondAttribute="bottom" constant="8" type="user" id="ymW-Y0-gLs"/>
-                            <constraint firstItem="fmZ-YD-jwC" firstAttribute="baseline" secondItem="leW-sV-UNq" secondAttribute="baseline" type="default" id="zwz-QG-tVh"/>
+                            <constraint firstItem="rqX-sd-iHk" firstAttribute="trailing" secondItem="ZbA-77-QbU" secondAttribute="trailing" type="default" id="yyC-bK-cAY"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2cG-WE-em6">
@@ -405,8 +418,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZz-B4-aci">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="cRU-XR-UEj"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Sharp">
+                                <state key="normal" title="Sharp" image="sharp.jpeg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -420,7 +436,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nWf-0X-0xW">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Throbbing">
+                                <state key="normal" title="Throbbing" image="throbbing.jpg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -437,7 +453,7 @@
                                     <constraint firstAttribute="height" constant="99" type="user" id="Tqs-ki-ckq"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Burning">
+                                <state key="normal" title="Burning" image="burning.jpg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -451,7 +467,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B77-Nn-ptA">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Numb">
+                                <state key="normal" title="Numb" image="numb.jpg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -465,7 +481,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05W-98-dnY">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Pressure">
+                                <state key="normal" image="pressure.jpeg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -488,7 +504,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="akX-fV-ha2"/>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k3o-wy-Wqb">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Tingling">
+                                <state key="normal" title="Tingling" image="acupuncture2.gif">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -502,7 +518,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7o-by-Wfb">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Clear">
+                                <state key="normal" title="Clear" image="eraser.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -518,7 +534,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="EaU-1m-L8C"/>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIB-L3-O4D">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Itchy">
+                                <state key="normal" title="Itchy" image="itchy_1.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -586,7 +602,6 @@
                             <constraint firstItem="Rx5-eg-xc0" firstAttribute="leading" secondItem="mAL-PJ-LJa" secondAttribute="leading" type="default" id="wCP-Kv-fzY"/>
                             <constraint firstItem="B77-Nn-ptA" firstAttribute="leading" secondItem="0rV-VG-u8a" secondAttribute="leading" type="default" id="xJi-i7-pki"/>
                             <constraint firstItem="nWf-0X-0xW" firstAttribute="top" secondItem="aqZ-IF-pXN" secondAttribute="top" constant="148" type="user" id="xzi-JE-wb5"/>
-                            <constraint firstItem="L7Q-6L-0Q9" firstAttribute="trailing" secondItem="w7o-by-Wfb" secondAttribute="trailing" type="default" id="zRw-ot-j3p"/>
                             <constraint firstItem="05W-98-dnY" firstAttribute="width" secondItem="k3o-wy-Wqb" secondAttribute="width" type="user" id="zTH-H1-ULy"/>
                         </constraints>
                     </view>
@@ -762,7 +777,7 @@
                                     <constraint firstAttribute="height" constant="100" id="xWE-N8-msX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Itchy" image="itchy.png">
+                                <state key="normal" title="Itchy" image="itchy_1.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -873,7 +888,7 @@
                                     <constraint firstAttribute="width" constant="100" type="user" id="Wfb-zg-S5A"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Sharp">
+                                <state key="normal" title="Sharp" image="sharp.jpeg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -890,7 +905,7 @@
                                     <constraint firstAttribute="height" constant="99" type="user" id="C8T-XR-KV0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Throbbing">
+                                <state key="normal" title="Throbbing" image="throbbing.jpg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -907,7 +922,7 @@
                                     <constraint firstAttribute="height" constant="99" type="user" id="KLh-3m-QQ9"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Burning">
+                                <state key="normal" title="Burning" image="burning.jpg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -921,7 +936,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BzI-MC-4RU">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Numb">
+                                <state key="normal" title="Numb" image="numb.jpg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -935,7 +950,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2Z-zC-JvT">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Pressure">
+                                <state key="normal" image="pressure.jpeg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -962,7 +977,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOv-Uf-HIl">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Tingling">
+                                <state key="normal" title="Tingling" image="acupuncture2.gif">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -979,7 +994,7 @@
                                     <constraint firstAttribute="height" constant="99" id="GB8-VW-LZR"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Clear">
+                                <state key="normal" title="Clear" image="eraser.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -995,7 +1010,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="2xI-Dj-uAa"/>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJM-hX-g2w">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Itchy">
+                                <state key="normal" title="Itchy" image="itchy_1.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1007,7 +1022,11 @@
                                     <action selector="button_itchy" destination="Ai9-ZL-COz" eventType="touchUpInside" id="ol4-gS-xiM"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="ozc-4f-POp"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="ozc-4f-POp">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="CXO-Bq-Gfp"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -1132,6 +1151,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oql-9L-CGR">
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="99" id="R8U-Un-MVh"/>
                                     <constraint firstAttribute="width" constant="100" type="user" id="xHy-8r-DsN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -1149,10 +1169,10 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sBt-Mz-B8m">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="99" type="user" id="XfI-uN-il1"/>
+                                    <constraint firstAttribute="height" constant="99" id="5wZ-fd-LDt"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Throbbing">
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1169,7 +1189,7 @@
                                     <constraint firstAttribute="height" constant="99" type="user" id="xEr-5U-K8T"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Burning">
+                                <state key="normal" title="Burning" image="burning.jpg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1182,8 +1202,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hE-Ex-6m0">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="99" type="user" id="ujH-LB-Fft"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Numb">
+                                <state key="normal" title="Numb" image="numb.jpg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1196,8 +1219,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E45-nX-ENA">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="99" id="qNQ-39-dzo"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Pressure">
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1219,8 +1245,12 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UcA-if-gyo">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="UCp-Jz-VRO"/>
+                                    <constraint firstAttribute="height" constant="99" type="user" id="edw-xZ-VkB"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Tingling">
+                                <state key="normal" title="Tingling" image="acupuncture2.gif">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1233,8 +1263,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XJ7-Oo-htE">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="99" id="dxo-12-mAy"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Clear">
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1249,8 +1282,11 @@
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="BqP-Fc-aVN"/>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YpE-E6-Ljn">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="101" type="user" id="PKD-xQ-v3s"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Itchy">
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1263,57 +1299,84 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="1eB-st-TEU"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="sharp.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="vsH-CR-iVE"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="throbbing.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vEh-KR-0bg">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="68" id="7nE-Kq-OHx"/>
+                                    <constraint firstAttribute="height" constant="90" id="mSZ-J8-VhZ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="itchy_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="lTV-Oj-4lh">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="92" type="user" id="b6D-JU-0Dv"/>
+                                    <constraint firstAttribute="width" constant="91" id="vLa-6F-6cu"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="eraser.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vtq-85-Pd0">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="92" type="user" id="DOh-9r-6ec"/>
+                                    <constraint firstAttribute="width" constant="92" id="bTB-4y-ldf"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pressure.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="JtR-y9-MvX">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="92" id="IuP-VB-Usc"/>
+                                    <constraint firstAttribute="width" constant="61" id="XXG-VB-Z5e"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="sBt-Mz-B8m" firstAttribute="trailing" secondItem="oql-9L-CGR" secondAttribute="trailing" type="user" id="0yZ-89-cAN"/>
-                            <constraint firstItem="oql-9L-CGR" firstAttribute="leading" secondItem="MI9-Uk-fD5" secondAttribute="leading" constant="28" type="user" id="1Wz-j9-GZq"/>
+                            <constraint firstAttribute="bottom" secondItem="1eB-st-TEU" secondAttribute="bottom" constant="234" id="06f-vX-W4s"/>
+                            <constraint firstItem="5hE-Ex-6m0" firstAttribute="trailing" secondItem="sBt-Mz-B8m" secondAttribute="trailing" type="default" id="1cX-kc-Ikb"/>
+                            <constraint firstItem="Nfd-8d-reC" firstAttribute="top" secondItem="MI9-Uk-fD5" secondAttribute="top" constant="134" id="2BD-oU-XMf"/>
+                            <constraint firstItem="5hE-Ex-6m0" firstAttribute="top" secondItem="sBt-Mz-B8m" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="2ik-8b-i8A"/>
                             <constraint firstItem="JXc-yO-20X" firstAttribute="leading" secondItem="Nfd-8d-reC" secondAttribute="leading" type="user" id="2y6-a0-hB2"/>
                             <constraint firstItem="JRD-aw-5w4" firstAttribute="leading" secondItem="0Y8-AU-yhx" secondAttribute="leading" type="user" id="3Pn-zX-Eav"/>
-                            <constraint firstItem="YpE-E6-Ljn" firstAttribute="trailing" secondItem="UcA-if-gyo" secondAttribute="trailing" type="user" id="5HF-Ta-foq"/>
-                            <constraint firstItem="YpE-E6-Ljn" firstAttribute="height" secondItem="oql-9L-CGR" secondAttribute="height" type="user" id="6Fd-Xe-JWc"/>
-                            <constraint firstAttribute="bottom" secondItem="XJ7-Oo-htE" secondAttribute="bottom" constant="104" id="7B8-qg-4Ek"/>
-                            <constraint firstItem="REh-Mb-4qX" firstAttribute="top" secondItem="5hE-Ex-6m0" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="7b6-aA-gDC"/>
-                            <constraint firstItem="oql-9L-CGR" firstAttribute="leading" secondItem="sBt-Mz-B8m" secondAttribute="leading" type="user" id="8Fc-Dx-zXm"/>
-                            <constraint firstItem="YpE-E6-Ljn" firstAttribute="height" secondItem="sBt-Mz-B8m" secondAttribute="height" type="user" id="9xt-0k-av9"/>
-                            <constraint firstItem="YpE-E6-Ljn" firstAttribute="height" secondItem="E45-nX-ENA" secondAttribute="height" type="user" id="B1U-Bq-7MV"/>
+                            <constraint firstItem="vEh-KR-0bg" firstAttribute="top" secondItem="MI9-Uk-fD5" secondAttribute="top" constant="163" id="42y-TP-pjZ"/>
+                            <constraint firstItem="E45-nX-ENA" firstAttribute="top" secondItem="REh-Mb-4qX" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="5ow-eg-nTD"/>
+                            <constraint firstItem="E45-nX-ENA" firstAttribute="leading" secondItem="REh-Mb-4qX" secondAttribute="leading" type="default" id="6M5-f0-eCq"/>
+                            <constraint firstItem="lTV-Oj-4lh" firstAttribute="centerX" secondItem="E45-nX-ENA" secondAttribute="centerX" type="default" id="8Dj-NV-JGS"/>
+                            <constraint firstItem="REh-Mb-4qX" firstAttribute="top" secondItem="5hE-Ex-6m0" secondAttribute="bottom" constant="8" type="user" id="Ar2-sp-vIv"/>
                             <constraint firstAttribute="trailing" secondItem="XJ7-Oo-htE" secondAttribute="trailing" constant="522" type="user" id="Ejt-6i-ahf"/>
-                            <constraint firstItem="E45-nX-ENA" firstAttribute="baseline" secondItem="Gsm-6A-9Nk" secondAttribute="baseline" type="default" id="GYt-kn-0ou"/>
+                            <constraint firstItem="sBt-Mz-B8m" firstAttribute="leading" secondItem="oql-9L-CGR" secondAttribute="leading" type="default" id="Gdm-r3-g0u"/>
                             <constraint firstItem="XJ7-Oo-htE" firstAttribute="leading" secondItem="1eB-st-TEU" secondAttribute="leading" type="user" id="GnA-YE-ygw"/>
-                            <constraint firstItem="REh-Mb-4qX" firstAttribute="trailing" secondItem="E45-nX-ENA" secondAttribute="trailing" type="user" id="Gqq-a3-4ph"/>
-                            <constraint firstItem="8EG-0c-uAn" firstAttribute="top" secondItem="MI9-Uk-fD5" secondAttribute="top" constant="28" id="OKN-jC-m4U"/>
+                            <constraint firstItem="sBt-Mz-B8m" firstAttribute="top" secondItem="oql-9L-CGR" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="J3x-eN-2GA"/>
+                            <constraint firstItem="UcA-if-gyo" firstAttribute="leading" secondItem="YpE-E6-Ljn" secondAttribute="leading" type="default" id="Lr6-Zh-v5p"/>
                             <constraint firstItem="BqP-Fc-aVN" firstAttribute="leading" secondItem="1eB-st-TEU" secondAttribute="leading" type="user" id="QAz-Dq-pIR"/>
-                            <constraint firstItem="E45-nX-ENA" firstAttribute="leading" secondItem="REh-Mb-4qX" secondAttribute="leading" type="user" id="SOT-Fc-kM5"/>
                             <constraint firstItem="BqP-Fc-aVN" firstAttribute="leading" secondItem="JRD-aw-5w4" secondAttribute="leading" type="user" id="Trd-j5-Xtc"/>
-                            <constraint firstItem="E45-nX-ENA" firstAttribute="leading" secondItem="UcA-if-gyo" secondAttribute="leading" type="user" id="TwD-5m-qMB"/>
+                            <constraint firstItem="sBt-Mz-B8m" firstAttribute="trailing" secondItem="oql-9L-CGR" secondAttribute="trailing" type="default" id="UtA-05-Spv"/>
                             <constraint firstItem="JXc-yO-20X" firstAttribute="leading" secondItem="0Y8-AU-yhx" secondAttribute="leading" type="user" id="Vx7-g9-l0c"/>
-                            <constraint firstItem="UcA-if-gyo" firstAttribute="top" secondItem="E45-nX-ENA" secondAttribute="bottom" constant="7" type="user" id="YyA-AJ-b2l"/>
-                            <constraint firstItem="5hE-Ex-6m0" firstAttribute="trailing" secondItem="sBt-Mz-B8m" secondAttribute="trailing" type="user" id="ZvZ-N5-7Lz"/>
-                            <constraint firstItem="YpE-E6-Ljn" firstAttribute="height" secondItem="UcA-if-gyo" secondAttribute="height" type="user" id="aAz-IV-DEG"/>
-                            <constraint firstItem="YpE-E6-Ljn" firstAttribute="height" secondItem="XJ7-Oo-htE" secondAttribute="height" type="user" id="aSq-dO-cNt"/>
+                            <constraint firstItem="UcA-if-gyo" firstAttribute="trailing" secondItem="YpE-E6-Ljn" secondAttribute="trailing" type="default" id="WPW-Xq-qRh"/>
+                            <constraint firstItem="E45-nX-ENA" firstAttribute="trailing" secondItem="REh-Mb-4qX" secondAttribute="trailing" type="default" id="WjS-df-dpc"/>
+                            <constraint firstItem="8EG-0c-uAn" firstAttribute="top" secondItem="MI9-Uk-fD5" secondAttribute="top" constant="28" id="Wpm-Ss-d0a"/>
+                            <constraint firstItem="sBt-Mz-B8m" firstAttribute="centerX" secondItem="vEh-KR-0bg" secondAttribute="centerX" type="default" id="Xsf-5Z-q2Z"/>
                             <constraint firstItem="Nfd-8d-reC" firstAttribute="leading" secondItem="8EG-0c-uAn" secondAttribute="leading" type="user" id="axO-Ns-s5j"/>
-                            <constraint firstItem="YpE-E6-Ljn" firstAttribute="leading" secondItem="UcA-if-gyo" secondAttribute="leading" type="user" id="bZ8-OY-nyv"/>
-                            <constraint firstItem="5hE-Ex-6m0" firstAttribute="leading" secondItem="sBt-Mz-B8m" secondAttribute="leading" type="user" id="cMa-oJ-39e"/>
-                            <constraint firstItem="5hE-Ex-6m0" firstAttribute="trailing" secondItem="REh-Mb-4qX" secondAttribute="trailing" type="user" id="cYU-yV-baZ"/>
-                            <constraint firstAttribute="bottom" secondItem="YpE-E6-Ljn" secondAttribute="bottom" constant="214" type="user" id="df1-SV-1ug"/>
+                            <constraint firstItem="UcA-if-gyo" firstAttribute="leading" secondItem="vsH-CR-iVE" secondAttribute="leading" type="default" id="bfJ-v5-NcK"/>
+                            <constraint firstItem="sBt-Mz-B8m" firstAttribute="leading" secondItem="MI9-Uk-fD5" secondAttribute="leading" constant="28" id="cLu-G7-xX4"/>
+                            <constraint firstItem="sBt-Mz-B8m" firstAttribute="top" secondItem="MI9-Uk-fD5" secondAttribute="top" constant="157" type="user" id="cPb-QA-VbF"/>
+                            <constraint firstItem="JtR-y9-MvX" firstAttribute="top" secondItem="MI9-Uk-fD5" secondAttribute="top" constant="483" id="cbL-R9-zLF"/>
+                            <constraint firstAttribute="bottom" secondItem="YpE-E6-Ljn" secondAttribute="bottom" constant="167" id="djU-VE-sWL"/>
+                            <constraint firstAttribute="bottom" secondItem="Vtq-85-Pd0" secondAttribute="bottom" constant="70" id="eiz-D3-cTI"/>
                             <constraint firstItem="Gsm-6A-9Nk" firstAttribute="leading" secondItem="MI9-Uk-fD5" secondAttribute="leading" constant="303" id="fC2-WW-GJf"/>
+                            <constraint firstItem="5hE-Ex-6m0" firstAttribute="leading" secondItem="REh-Mb-4qX" secondAttribute="leading" type="default" id="gjg-Xy-LKz"/>
                             <constraint firstItem="1eB-st-TEU" firstAttribute="top" secondItem="BqP-Fc-aVN" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="gze-6L-Tcy"/>
                             <constraint firstItem="XJ7-Oo-htE" firstAttribute="trailing" secondItem="1eB-st-TEU" secondAttribute="trailing" type="user" id="iq2-ox-AKh"/>
                             <constraint firstItem="8EG-0c-uAn" firstAttribute="leading" secondItem="MI9-Uk-fD5" secondAttribute="leading" constant="146" type="user" id="iwZ-sR-Qb2"/>
+                            <constraint firstItem="UcA-if-gyo" firstAttribute="leading" secondItem="MI9-Uk-fD5" secondAttribute="leading" constant="29" id="jBM-Hk-P7M"/>
+                            <constraint firstItem="5hE-Ex-6m0" firstAttribute="trailing" secondItem="REh-Mb-4qX" secondAttribute="trailing" type="default" id="jpc-gf-aZf"/>
                             <constraint firstItem="BqP-Fc-aVN" firstAttribute="top" secondItem="JRD-aw-5w4" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="kLw-O8-UO1"/>
-                            <constraint firstItem="sBt-Mz-B8m" firstAttribute="top" secondItem="oql-9L-CGR" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="kUd-DJ-WxN"/>
-                            <constraint firstItem="oql-9L-CGR" firstAttribute="top" secondItem="MI9-Uk-fD5" secondAttribute="top" constant="50" type="user" id="mfX-l0-Q7f"/>
-                            <constraint firstItem="UcA-if-gyo" firstAttribute="trailing" secondItem="E45-nX-ENA" secondAttribute="trailing" type="user" id="p5x-IX-JFp"/>
-                            <constraint firstItem="YpE-E6-Ljn" firstAttribute="top" secondItem="UcA-if-gyo" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="qWU-KG-nRg"/>
-                            <constraint firstItem="E45-nX-ENA" firstAttribute="top" secondItem="REh-Mb-4qX" secondAttribute="bottom" constant="8" type="user" id="s8O-EE-1Ux"/>
-                            <constraint firstItem="YpE-E6-Ljn" firstAttribute="height" secondItem="5hE-Ex-6m0" secondAttribute="height" type="user" id="uAr-YE-afK"/>
+                            <constraint firstItem="sBt-Mz-B8m" firstAttribute="leading" secondItem="5hE-Ex-6m0" secondAttribute="leading" type="default" id="kkc-Pj-V4M"/>
+                            <constraint firstItem="JtR-y9-MvX" firstAttribute="centerX" secondItem="vsH-CR-iVE" secondAttribute="centerX" type="default" id="mC4-7g-Gdf"/>
+                            <constraint firstItem="Gsm-6A-9Nk" firstAttribute="top" secondItem="MI9-Uk-fD5" secondAttribute="top" constant="402" id="nMD-22-zuH"/>
+                            <constraint firstItem="vsH-CR-iVE" firstAttribute="centerY" secondItem="oql-9L-CGR" secondAttribute="centerY" type="default" id="pJr-MB-j2L"/>
+                            <constraint firstAttribute="bottom" secondItem="lTV-Oj-4lh" secondAttribute="bottom" constant="171" id="ttl-50-cS4"/>
+                            <constraint firstItem="REh-Mb-4qX" firstAttribute="top" secondItem="5hE-Ex-6m0" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="u3K-Xk-P8a"/>
                             <constraint firstItem="0Y8-AU-yhx" firstAttribute="top" secondItem="JXc-yO-20X" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="uYA-0N-xdZ"/>
-                            <constraint firstItem="JRD-aw-5w4" firstAttribute="top" secondItem="MI9-Uk-fD5" secondAttribute="top" constant="455" id="ue0-fB-Xiy"/>
-                            <constraint firstItem="5hE-Ex-6m0" firstAttribute="top" secondItem="sBt-Mz-B8m" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="vmL-GA-rSH"/>
+                            <constraint firstItem="Vtq-85-Pd0" firstAttribute="centerX" secondItem="XJ7-Oo-htE" secondAttribute="centerX" type="default" id="uzc-et-CbI"/>
+                            <constraint firstAttribute="bottom" secondItem="XJ7-Oo-htE" secondAttribute="bottom" constant="67" id="wFR-8S-3l8"/>
                             <constraint firstItem="JXc-yO-20X" firstAttribute="top" secondItem="Nfd-8d-reC" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="wbU-w0-O69"/>
-                            <constraint firstItem="YpE-E6-Ljn" firstAttribute="height" secondItem="REh-Mb-4qX" secondAttribute="height" type="user" id="wwY-xu-S1K"/>
-                            <constraint firstItem="Nfd-8d-reC" firstAttribute="top" secondItem="MI9-Uk-fD5" secondAttribute="top" constant="134" id="z9o-TS-OuF"/>
-                            <constraint firstItem="5hE-Ex-6m0" firstAttribute="leading" secondItem="REh-Mb-4qX" secondAttribute="leading" type="user" id="zK0-Cr-Cpb"/>
+                            <constraint firstItem="YpE-E6-Ljn" firstAttribute="top" secondItem="UcA-if-gyo" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="zhC-XT-mOF"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SCu-EK-gN4">
@@ -1773,11 +1836,11 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p8B-N2-ccg">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="99" id="EIz-4K-DNy"/>
+                                    <constraint firstAttribute="height" constant="99" type="user" id="EIz-4K-DNy"/>
                                     <constraint firstAttribute="width" constant="100" id="aVk-xk-wrU"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Sharp">
+                                <state key="normal" title="Sharp" image="sharp.jpeg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1791,7 +1854,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77L-NC-eNA">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Throbbing">
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1805,7 +1868,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Q6-Jz-G2G">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Burning">
+                                <state key="normal" title="Burning" image="burning.jpg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1819,7 +1882,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xoX-Cw-jar">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Numb">
+                                <state key="normal" title="Numb" image="numb.jpg">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1833,7 +1896,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFJ-rk-fqu">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Pressure">
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1859,7 +1922,7 @@
                                     <constraint firstAttribute="height" constant="99" type="user" id="jLM-20-75n"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Tingling">
+                                <state key="normal" title="Tingling" image="acupuncture2.gif">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1873,7 +1936,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYy-Sj-1YE">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Clear">
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1889,7 +1952,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="85f-c4-1EC"/>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXk-Qo-Wih">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Itchy">
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1902,64 +1965,90 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Transparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="CrA-Am-ea9"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="throbbing.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iWb-n1-IuO">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" type="user" id="lly-gw-AIx"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pressure.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="XpU-zX-1RS">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" type="user" id="7zD-YV-N4f"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="itchy_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="pdd-Hl-JMh">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" type="user" id="2PY-aH-se3"/>
+                                    <constraint firstAttribute="width" constant="91" id="ch7-lB-IFv"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="eraser.png" translatesAutoresizingMaskIntoConstraints="NO" id="hAl-ZV-Vca">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="89" type="user" id="TeX-SZ-uDa"/>
+                                    <constraint firstAttribute="width" constant="89" id="k85-Gu-SaC"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="gFJ-rk-fqu" firstAttribute="trailing" secondItem="0jc-jC-UDL" secondAttribute="trailing" type="default" id="08S-pp-6cf"/>
-                            <constraint firstItem="WXk-Qo-Wih" firstAttribute="top" secondItem="0jc-jC-UDL" secondAttribute="bottom" constant="8" type="user" id="0rW-4M-Kg2"/>
-                            <constraint firstItem="p8B-N2-ccg" firstAttribute="leading" secondItem="xsb-VK-9Ch" secondAttribute="leading" constant="30" id="2EU-sq-pJM"/>
-                            <constraint firstItem="WXk-Qo-Wih" firstAttribute="top" secondItem="0jc-jC-UDL" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="3PE-3k-OG9"/>
+                            <constraint firstAttribute="bottom" secondItem="hYy-Sj-1YE" secondAttribute="bottom" constant="79" id="1BK-po-ngs"/>
+                            <constraint firstItem="gFJ-rk-fqu" firstAttribute="top" secondItem="9Q6-Jz-G2G" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="1as-4D-Gkd"/>
+                            <constraint firstItem="WXk-Qo-Wih" firstAttribute="top" secondItem="0jc-jC-UDL" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="2CF-Mk-h0x"/>
                             <constraint firstItem="gFJ-rk-fqu" firstAttribute="trailing" secondItem="9Q6-Jz-G2G" secondAttribute="trailing" type="default" id="3k0-SN-GXd"/>
+                            <constraint firstItem="xoX-Cw-jar" firstAttribute="top" secondItem="77L-NC-eNA" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="4Az-Iv-ncz"/>
+                            <constraint firstItem="77L-NC-eNA" firstAttribute="top" secondItem="p8B-N2-ccg" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="4en-WM-nuy"/>
+                            <constraint firstAttribute="bottom" secondItem="pdd-Hl-JMh" secondAttribute="bottom" constant="180" id="4mb-nC-xFN"/>
                             <constraint firstItem="CrA-Am-ea9" firstAttribute="top" secondItem="85f-c4-1EC" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="5uP-8g-2fz"/>
                             <constraint firstItem="0jc-jC-UDL" firstAttribute="leading" secondItem="WXk-Qo-Wih" secondAttribute="leading" type="default" id="8bz-8A-yvL"/>
                             <constraint firstItem="Rk7-5b-ISM" firstAttribute="leading" secondItem="TOr-NQ-ewI" secondAttribute="leading" type="default" id="Akl-Kr-lm2"/>
                             <constraint firstItem="gFJ-rk-fqu" firstAttribute="leading" secondItem="9Q6-Jz-G2G" secondAttribute="leading" type="default" id="Atc-0x-ucq"/>
-                            <constraint firstItem="0jc-jC-UDL" firstAttribute="top" secondItem="gFJ-rk-fqu" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="CXF-Pj-1HM"/>
                             <constraint firstAttribute="bottom" secondItem="CrA-Am-ea9" secondAttribute="bottom" constant="200" id="Cs9-aV-5Fe"/>
                             <constraint firstItem="0jc-jC-UDL" firstAttribute="leading" secondItem="gFJ-rk-fqu" secondAttribute="leading" type="default" id="D7N-Y4-sKq"/>
+                            <constraint firstItem="XpU-zX-1RS" firstAttribute="top" secondItem="xsb-VK-9Ch" secondAttribute="top" constant="471" id="F0d-1e-BmI"/>
+                            <constraint firstItem="p8B-N2-ccg" firstAttribute="top" secondItem="xsb-VK-9Ch" secondAttribute="top" constant="43" type="user" id="Guh-bs-82O"/>
                             <constraint firstItem="xoX-Cw-jar" firstAttribute="trailing" secondItem="9Q6-Jz-G2G" secondAttribute="trailing" type="default" id="Hj9-Hj-bck"/>
+                            <constraint firstItem="0jc-jC-UDL" firstAttribute="leading" secondItem="xsb-VK-9Ch" secondAttribute="leading" constant="30" id="JN1-Ou-djR"/>
                             <constraint firstItem="CrA-Am-ea9" firstAttribute="leading" secondItem="85f-c4-1EC" secondAttribute="leading" type="default" id="LgM-6N-woX"/>
                             <constraint firstItem="NLh-3S-g3A" firstAttribute="top" secondItem="kut-Qc-zLd" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="M2E-FC-Rqw"/>
                             <constraint firstItem="9Q6-Jz-G2G" firstAttribute="leading" secondItem="xoX-Cw-jar" secondAttribute="leading" type="default" id="MIT-QV-bjz"/>
                             <constraint firstItem="6gu-uQ-Swm" firstAttribute="top" secondItem="xsb-VK-9Ch" secondAttribute="top" constant="403" id="MIp-aK-s8Z"/>
                             <constraint firstItem="9Q6-Jz-G2G" firstAttribute="height" secondItem="0jc-jC-UDL" secondAttribute="height" type="user" id="MMu-x7-0KB"/>
-                            <constraint firstItem="0jc-jC-UDL" firstAttribute="top" secondItem="gFJ-rk-fqu" secondAttribute="bottom" constant="8" type="user" id="N4T-et-Yfc"/>
+                            <constraint firstItem="iWb-n1-IuO" firstAttribute="top" secondItem="p8B-N2-ccg" secondAttribute="bottom" constant="10" type="user" id="NXl-Cn-f9o"/>
                             <constraint firstItem="9Q6-Jz-G2G" firstAttribute="height" secondItem="0jc-jC-UDL" secondAttribute="height" type="user" id="Nss-vu-SO2"/>
                             <constraint firstItem="85f-c4-1EC" firstAttribute="leading" secondItem="NLh-3S-g3A" secondAttribute="leading" type="default" id="Ory-NL-aV9"/>
                             <constraint firstItem="9Q6-Jz-G2G" firstAttribute="height" secondItem="hYy-Sj-1YE" secondAttribute="height" type="user" id="REv-I2-oQe"/>
                             <constraint firstItem="p8B-N2-ccg" firstAttribute="leading" secondItem="77L-NC-eNA" secondAttribute="leading" type="default" id="RPT-mX-lQg"/>
                             <constraint firstItem="CrA-Am-ea9" firstAttribute="trailing" secondItem="hYy-Sj-1YE" secondAttribute="trailing" type="default" id="RgP-Ck-74S"/>
                             <constraint firstItem="jHu-Ak-VJ3" firstAttribute="top" secondItem="xsb-VK-9Ch" secondAttribute="top" constant="26" id="V9X-0G-cbI"/>
-                            <constraint firstItem="xoX-Cw-jar" firstAttribute="trailing" secondItem="77L-NC-eNA" secondAttribute="trailing" type="default" id="VMO-8p-cgz"/>
-                            <constraint firstItem="77L-NC-eNA" firstAttribute="top" secondItem="p8B-N2-ccg" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="XaY-TT-TBp"/>
-                            <constraint firstItem="xoX-Cw-jar" firstAttribute="top" secondItem="77L-NC-eNA" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="aLe-sJ-u8j"/>
+                            <constraint firstItem="WXk-Qo-Wih" firstAttribute="trailing" secondItem="0jc-jC-UDL" secondAttribute="trailing" type="default" id="Vyt-Pf-BvM"/>
+                            <constraint firstItem="hAl-ZV-Vca" firstAttribute="centerX" secondItem="hYy-Sj-1YE" secondAttribute="centerX" type="default" id="ZBm-cg-Jus"/>
+                            <constraint firstItem="9Q6-Jz-G2G" firstAttribute="top" secondItem="xoX-Cw-jar" secondAttribute="bottom" constant="6" type="user" id="Zkq-1d-eIj"/>
                             <constraint firstItem="Rk7-5b-ISM" firstAttribute="top" secondItem="TOr-NQ-ewI" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="aN9-ff-Raj"/>
                             <constraint firstItem="9Q6-Jz-G2G" firstAttribute="height" secondItem="WXk-Qo-Wih" secondAttribute="height" type="user" id="aYO-eu-vXt"/>
-                            <constraint firstItem="hYy-Sj-1YE" firstAttribute="top" secondItem="WXk-Qo-Wih" secondAttribute="bottom" constant="12" type="user" id="b99-LR-osj"/>
+                            <constraint firstItem="xoX-Cw-jar" firstAttribute="top" secondItem="iWb-n1-IuO" secondAttribute="bottom" constant="9" type="user" id="ah1-hn-rOc"/>
                             <constraint firstItem="9Q6-Jz-G2G" firstAttribute="height" secondItem="77L-NC-eNA" secondAttribute="height" type="user" id="bPn-lz-9yn"/>
                             <constraint firstItem="9Q6-Jz-G2G" firstAttribute="height" secondItem="77L-NC-eNA" secondAttribute="height" type="user" id="bUS-nc-QM4"/>
                             <constraint firstItem="9Q6-Jz-G2G" firstAttribute="height" secondItem="xoX-Cw-jar" secondAttribute="height" type="user" id="cQ5-uU-nkT"/>
-                            <constraint firstItem="p8B-N2-ccg" firstAttribute="top" secondItem="xsb-VK-9Ch" secondAttribute="top" constant="48" id="cVj-D1-5Hr"/>
                             <constraint firstItem="9Q6-Jz-G2G" firstAttribute="height" secondItem="xoX-Cw-jar" secondAttribute="height" type="user" id="eHn-rS-J2d"/>
+                            <constraint firstItem="pdd-Hl-JMh" firstAttribute="centerX" secondItem="WXk-Qo-Wih" secondAttribute="centerX" type="default" id="edU-sP-glH"/>
                             <constraint firstItem="77L-NC-eNA" firstAttribute="trailing" secondItem="p8B-N2-ccg" secondAttribute="trailing" type="default" id="fP3-TK-zvH"/>
                             <constraint firstItem="p8B-N2-ccg" firstAttribute="top" relation="greaterThanOrEqual" secondItem="xsb-VK-9Ch" secondAttribute="top" constant="37" type="user" id="hZU-GW-hxi"/>
-                            <constraint firstItem="gFJ-rk-fqu" firstAttribute="top" secondItem="9Q6-Jz-G2G" secondAttribute="bottom" constant="8" type="user" id="hdv-3A-DxL"/>
                             <constraint firstItem="9Q6-Jz-G2G" firstAttribute="height" secondItem="gFJ-rk-fqu" secondAttribute="height" type="user" id="ihw-vg-TNE"/>
                             <constraint firstItem="TOr-NQ-ewI" firstAttribute="leading" secondItem="jHu-Ak-VJ3" secondAttribute="leading" type="default" id="iqf-ye-5TF"/>
                             <constraint firstItem="9Q6-Jz-G2G" firstAttribute="height" secondItem="gFJ-rk-fqu" secondAttribute="height" type="user" id="j6j-e9-c7q"/>
                             <constraint firstItem="jHu-Ak-VJ3" firstAttribute="leading" secondItem="xsb-VK-9Ch" secondAttribute="leading" constant="148" id="mNM-Ul-kRs"/>
                             <constraint firstItem="9Q6-Jz-G2G" firstAttribute="height" secondItem="WXk-Qo-Wih" secondAttribute="height" type="user" id="mZ0-OZ-qAO"/>
-                            <constraint firstItem="0jc-jC-UDL" firstAttribute="top" secondItem="gFJ-rk-fqu" secondAttribute="bottom" constant="8" type="user" id="qQi-cQ-SRY"/>
+                            <constraint firstItem="hAl-ZV-Vca" firstAttribute="centerY" secondItem="hYy-Sj-1YE" secondAttribute="centerY" type="default" id="mx4-ZV-MYH"/>
                             <constraint firstItem="Rk7-5b-ISM" firstAttribute="leading" secondItem="kut-Qc-zLd" secondAttribute="leading" type="default" id="qp6-4d-VuA"/>
                             <constraint firstItem="TOr-NQ-ewI" firstAttribute="top" secondItem="jHu-Ak-VJ3" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="r3A-kj-3hU"/>
                             <constraint firstItem="kut-Qc-zLd" firstAttribute="leading" secondItem="NLh-3S-g3A" secondAttribute="leading" type="default" id="rAW-Zb-e6O"/>
+                            <constraint firstAttribute="bottom" secondItem="WXk-Qo-Wih" secondAttribute="bottom" constant="179" id="rTk-Ne-cdo"/>
+                            <constraint firstItem="XpU-zX-1RS" firstAttribute="centerX" secondItem="gFJ-rk-fqu" secondAttribute="centerX" type="default" id="rlL-ZQ-X3U"/>
                             <constraint firstItem="6gu-uQ-Swm" firstAttribute="leading" secondItem="xsb-VK-9Ch" secondAttribute="leading" constant="326" id="sCd-eJ-nJw"/>
-                            <constraint firstItem="9Q6-Jz-G2G" firstAttribute="top" secondItem="xoX-Cw-jar" secondAttribute="bottom" constant="8" type="user" id="tar-fE-4eY"/>
-                            <constraint firstItem="gFJ-rk-fqu" firstAttribute="top" secondItem="9Q6-Jz-G2G" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="u6J-lI-DbQ"/>
                             <constraint firstItem="kut-Qc-zLd" firstAttribute="top" secondItem="Rk7-5b-ISM" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="uoC-ml-Iax"/>
-                            <constraint firstItem="WXk-Qo-Wih" firstAttribute="trailing" secondItem="0jc-jC-UDL" secondAttribute="trailing" type="default" id="w72-dD-EPS"/>
                             <constraint firstItem="77L-NC-eNA" firstAttribute="leading" secondItem="xoX-Cw-jar" secondAttribute="leading" type="default" id="wBm-4J-koF"/>
-                            <constraint firstItem="9Q6-Jz-G2G" firstAttribute="top" secondItem="xoX-Cw-jar" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="xSB-wL-xJu"/>
+                            <constraint firstItem="iWb-n1-IuO" firstAttribute="centerX" secondItem="77L-NC-eNA" secondAttribute="centerX" type="default" id="wW7-G6-ceh"/>
+                            <constraint firstItem="xoX-Cw-jar" firstAttribute="trailing" secondItem="77L-NC-eNA" secondAttribute="trailing" type="default" id="wiC-ZJ-bXX"/>
                             <constraint firstItem="hYy-Sj-1YE" firstAttribute="leading" secondItem="CrA-Am-ea9" secondAttribute="leading" type="default" id="ytN-2k-gYd"/>
                         </constraints>
                     </view>
@@ -2011,13 +2100,13 @@
         <image name="Transparent.png" width="100" height="100"/>
         <image name="Write Icon.png" width="100" height="100"/>
         <image name="acupuncture2.gif" width="91" height="100"/>
-        <image name="burning.jpg" width="100" height="80"/>
+        <image name="burning.jpg" width="97" height="78"/>
         <image name="eraser.png" width="95" height="95"/>
-        <image name="itchy.png" width="97" height="100"/>
-        <image name="numb.jpg" width="100" height="75"/>
-        <image name="pressure.jpeg" width="66" height="100"/>
+        <image name="itchy_1.png" width="92" height="95"/>
+        <image name="numb.jpg" width="97" height="73"/>
+        <image name="pressure.jpeg" width="64" height="97"/>
         <image name="sharp.jpeg" width="97" height="89"/>
-        <image name="throbbing.jpg" width="82" height="100"/>
+        <image name="throbbing.jpg" width="80" height="97"/>
         <image name="tired.png" width="100" height="100"/>
     </resources>
     <classes>
@@ -2235,6 +2324,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="Y0O-CR-VhF"/>
-        <segue reference="cxK-p4-mF9"/>
+        <segue reference="8Sb-Jv-KtN"/>
     </inferredMetricsTieBreakers>
 </document>

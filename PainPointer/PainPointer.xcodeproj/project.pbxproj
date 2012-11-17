@@ -64,11 +64,11 @@
 		D0EDBE6E165841EC000C4D24 /* sharp.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE6D165841EC000C4D24 /* sharp.jpeg */; };
 		D0EDBE7216584275000C4D24 /* eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE7116584275000C4D24 /* eraser.png */; };
 		D0EDBE79165845AA000C4D24 /* acupuncture2.gif in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE73165845AA000C4D24 /* acupuncture2.gif */; };
-		D0EDBE7A165845AA000C4D24 /* burning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE74165845AA000C4D24 /* burning.jpg */; };
-		D0EDBE7B165845AA000C4D24 /* itchy.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE75165845AA000C4D24 /* itchy.png */; };
-		D0EDBE7C165845AA000C4D24 /* numb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE76165845AA000C4D24 /* numb.jpg */; };
-		D0EDBE7D165845AA000C4D24 /* pressure.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE77165845AA000C4D24 /* pressure.jpeg */; };
-		D0EDBE7E165845AA000C4D24 /* throbbing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE78165845AA000C4D24 /* throbbing.jpg */; };
+		D0EDBE841658491F000C4D24 /* burning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE7F1658491F000C4D24 /* burning.jpg */; };
+		D0EDBE861658491F000C4D24 /* numb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE811658491F000C4D24 /* numb.jpg */; };
+		D0EDBE871658491F000C4D24 /* pressure.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE821658491F000C4D24 /* pressure.jpeg */; };
+		D0EDBE881658491F000C4D24 /* throbbing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE831658491F000C4D24 /* throbbing.jpg */; };
+		D0EDBE8A1658498B000C4D24 /* itchy_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE891658498B000C4D24 /* itchy_1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,11 +151,11 @@
 		D0EDBE6D165841EC000C4D24 /* sharp.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sharp.jpeg; sourceTree = "<group>"; };
 		D0EDBE7116584275000C4D24 /* eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser.png; sourceTree = "<group>"; };
 		D0EDBE73165845AA000C4D24 /* acupuncture2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = acupuncture2.gif; sourceTree = "<group>"; };
-		D0EDBE74165845AA000C4D24 /* burning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burning.jpg; sourceTree = "<group>"; };
-		D0EDBE75165845AA000C4D24 /* itchy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itchy.png; sourceTree = "<group>"; };
-		D0EDBE76165845AA000C4D24 /* numb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = numb.jpg; sourceTree = "<group>"; };
-		D0EDBE77165845AA000C4D24 /* pressure.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pressure.jpeg; sourceTree = "<group>"; };
-		D0EDBE78165845AA000C4D24 /* throbbing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = throbbing.jpg; sourceTree = "<group>"; };
+		D0EDBE7F1658491F000C4D24 /* burning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burning.jpg; sourceTree = "<group>"; };
+		D0EDBE811658491F000C4D24 /* numb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = numb.jpg; sourceTree = "<group>"; };
+		D0EDBE821658491F000C4D24 /* pressure.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pressure.jpeg; sourceTree = "<group>"; };
+		D0EDBE831658491F000C4D24 /* throbbing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = throbbing.jpg; sourceTree = "<group>"; };
+		D0EDBE891658498B000C4D24 /* itchy_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itchy_1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,12 +265,12 @@
 				41D41B0B16559409009D27D3 /* Check.png */,
 				41C9341A1655C069009A51EA /* Transparent.png */,
 				D0EDBE7116584275000C4D24 /* eraser.png */,
+				D0EDBE891658498B000C4D24 /* itchy_1.png */,
 				D0EDBE73165845AA000C4D24 /* acupuncture2.gif */,
-				D0EDBE74165845AA000C4D24 /* burning.jpg */,
-				D0EDBE75165845AA000C4D24 /* itchy.png */,
-				D0EDBE76165845AA000C4D24 /* numb.jpg */,
-				D0EDBE77165845AA000C4D24 /* pressure.jpeg */,
-				D0EDBE78165845AA000C4D24 /* throbbing.jpg */,
+				D0EDBE7F1658491F000C4D24 /* burning.jpg */,
+				D0EDBE811658491F000C4D24 /* numb.jpg */,
+				D0EDBE821658491F000C4D24 /* pressure.jpeg */,
+				D0EDBE831658491F000C4D24 /* throbbing.jpg */,
 				D0EDBE6D165841EC000C4D24 /* sharp.jpeg */,
 				41325D8A1652F5AA004BBD9B /* Supporting Files */,
 			);
@@ -421,11 +421,11 @@
 				D0EDBE6E165841EC000C4D24 /* sharp.jpeg in Resources */,
 				D0EDBE7216584275000C4D24 /* eraser.png in Resources */,
 				D0EDBE79165845AA000C4D24 /* acupuncture2.gif in Resources */,
-				D0EDBE7A165845AA000C4D24 /* burning.jpg in Resources */,
-				D0EDBE7B165845AA000C4D24 /* itchy.png in Resources */,
-				D0EDBE7C165845AA000C4D24 /* numb.jpg in Resources */,
-				D0EDBE7D165845AA000C4D24 /* pressure.jpeg in Resources */,
-				D0EDBE7E165845AA000C4D24 /* throbbing.jpg in Resources */,
+				D0EDBE841658491F000C4D24 /* burning.jpg in Resources */,
+				D0EDBE861658491F000C4D24 /* numb.jpg in Resources */,
+				D0EDBE871658491F000C4D24 /* pressure.jpeg in Resources */,
+				D0EDBE881658491F000C4D24 /* throbbing.jpg in Resources */,
+				D0EDBE8A1658498B000C4D24 /* itchy_1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
