@@ -31,11 +31,6 @@
 		41E03F8D165726BA00D58F8B /* LeftLegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E03F8C165726BA00D58F8B /* LeftLegViewController.m */; };
 		41E03F901657278400D58F8B /* RightLegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E03F8F1657278300D58F8B /* RightLegViewController.m */; };
 		41E03F9316572B6600D58F8B /* RightArmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E03F9216572B6600D58F8B /* RightArmViewController.m */; };
-		D0352CD4165A173A0073C9E6 /* Bleeding Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0352CCF165A173A0073C9E6 /* Bleeding Blue.png */; };
-		D0352CD5165A173A0073C9E6 /* Burning Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0352CD0165A173A0073C9E6 /* Burning Blue.png */; };
-		D0352CD6165A173A0073C9E6 /* General Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0352CD1165A173A0073C9E6 /* General Blue.png */; };
-		D0352CD7165A173A0073C9E6 /* Sharp Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0352CD2165A173A0073C9E6 /* Sharp Blue.png */; };
-		D0352CD8165A173A0073C9E6 /* Throbbing Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0352CD3165A173A0073C9E6 /* Throbbing Blue.png */; };
 		D0D8017C1659999500C8E42E /* Full Body Front DONE.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D801751659999500C8E42E /* Full Body Front DONE.png */; };
 		D0D8017D1659999500C8E42E /* Head DONE.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D801761659999500C8E42E /* Head DONE.png */; };
 		D0D8017E1659999500C8E42E /* Left arm DONE.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D801771659999500C8E42E /* Left arm DONE.png */; };
@@ -43,18 +38,44 @@
 		D0D801801659999500C8E42E /* Right Arm DONE.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D801791659999500C8E42E /* Right Arm DONE.png */; };
 		D0D801811659999500C8E42E /* Right Leg DONE.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D8017A1659999500C8E42E /* Right Leg DONE.png */; };
 		D0D801821659999500C8E42E /* Torso DONE.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D8017B1659999500C8E42E /* Torso DONE.png */; };
-		D0D801891659D02E00C8E42E /* Bleeding.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D801841659D02E00C8E42E /* Bleeding.png */; };
-		D0D8018A1659D02E00C8E42E /* Burning.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D801851659D02E00C8E42E /* Burning.png */; };
-		D0D8018B1659D02E00C8E42E /* General.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D801861659D02E00C8E42E /* General.png */; };
-		D0D8018C1659D02E00C8E42E /* Sharp.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D801871659D02E00C8E42E /* Sharp.png */; };
-		D0D8018D1659D02E00C8E42E /* Throbbing.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D801881659D02E00C8E42E /* Throbbing.png */; };
-		D0D801941659D6CD00C8E42E /* Depressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D8018E1659D6CD00C8E42E /* Depressed.png */; };
-		D0D801951659D6CD00C8E42E /* Dizzy.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D8018F1659D6CD00C8E42E /* Dizzy.png */; };
-		D0D801961659D6CD00C8E42E /* Drowziness.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D801901659D6CD00C8E42E /* Drowziness.png */; };
-		D0D801971659D6CD00C8E42E /* Fever.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D801911659D6CD00C8E42E /* Fever.png */; };
-		D0D801981659D6CD00C8E42E /* Headache.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D801921659D6CD00C8E42E /* Headache.png */; };
-		D0D801991659D6CD00C8E42E /* Nauseaus.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D801931659D6CD00C8E42E /* Nauseaus.png */; };
+		D0EDBE4216582BFF000C4D24 /* Anxious Icon Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE2416582BFF000C4D24 /* Anxious Icon Blue.png */; };
+		D0EDBE4416582BFF000C4D24 /* Cold Icon Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE2616582BFF000C4D24 /* Cold Icon Blue.png */; };
+		D0EDBE4516582BFF000C4D24 /* Cold Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE2716582BFF000C4D24 /* Cold Icon.png */; };
+		D0EDBE4616582BFF000C4D24 /* Cup Icon Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE2816582BFF000C4D24 /* Cup Icon Blue.png */; };
+		D0EDBE4716582BFF000C4D24 /* Cup Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE2916582BFF000C4D24 /* Cup Icon.png */; };
+		D0EDBE4816582BFF000C4D24 /* Hot Icon Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE2A16582BFF000C4D24 /* Hot Icon Blue.png */; };
+		D0EDBE4916582BFF000C4D24 /* Hot Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE2B16582BFF000C4D24 /* Hot Icon.png */; };
+		D0EDBE4A16582BFF000C4D24 /* Hungry Icon Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE2C16582BFF000C4D24 /* Hungry Icon Blue.png */; };
+		D0EDBE4B16582BFF000C4D24 /* Hungry Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE2D16582BFF000C4D24 /* Hungry Icon.png */; };
+		D0EDBE4C16582BFF000C4D24 /* Itchy Icon Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE2E16582BFF000C4D24 /* Itchy Icon Blue.png */; };
+		D0EDBE4D16582BFF000C4D24 /* Itchy Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE2F16582BFF000C4D24 /* Itchy Icon.png */; };
+		D0EDBE4E16582BFF000C4D24 /* Nausea Blue Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE3016582BFF000C4D24 /* Nausea Blue Icon.png */; };
+		D0EDBE4F16582BFF000C4D24 /* Nausea Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE3116582BFF000C4D24 /* Nausea Icon.png */; };
+		D0EDBE5016582BFF000C4D24 /* tired Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE3216582BFF000C4D24 /* tired Blue.png */; };
+		D0EDBE5116582BFF000C4D24 /* tired.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE3316582BFF000C4D24 /* tired.png */; };
+		D0EDBE5216582BFF000C4D24 /* Phone Icon Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE3416582BFF000C4D24 /* Phone Icon Blue.png */; };
+		D0EDBE5316582BFF000C4D24 /* Phone Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE3516582BFF000C4D24 /* Phone Icon.png */; };
+		D0EDBE5416582BFF000C4D24 /* Puke Icon Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE3616582BFF000C4D24 /* Puke Icon Blue.png */; };
+		D0EDBE5516582BFF000C4D24 /* Puke Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE3716582BFF000C4D24 /* Puke Icon.png */; };
+		D0EDBE5616582BFF000C4D24 /* Sleep Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE3816582BFF000C4D24 /* Sleep Icon.png */; };
+		D0EDBE5716582BFF000C4D24 /* Sleepy Icon Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE3916582BFF000C4D24 /* Sleepy Icon Blue.png */; };
+		D0EDBE5816582BFF000C4D24 /* Toilet Icon Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE3A16582BFF000C4D24 /* Toilet Icon Blue.png */; };
+		D0EDBE5916582BFF000C4D24 /* Toilet Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE3B16582BFF000C4D24 /* Toilet Icon.png */; };
+		D0EDBE5A16582BFF000C4D24 /* Too Sad Icon Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE3C16582BFF000C4D24 /* Too Sad Icon Blue.png */; };
+		D0EDBE5B16582BFF000C4D24 /* Too Sad Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE3D16582BFF000C4D24 /* Too Sad Icon.png */; };
+		D0EDBE5C16582BFF000C4D24 /* TV Icon Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE3E16582BFF000C4D24 /* TV Icon Blue.png */; };
+		D0EDBE5D16582BFF000C4D24 /* TV Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE3F16582BFF000C4D24 /* TV Icon.png */; };
+		D0EDBE5E16582BFF000C4D24 /* Write Icon Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE4016582BFF000C4D24 /* Write Icon Blue.png */; };
+		D0EDBE5F16582BFF000C4D24 /* Write Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE4116582BFF000C4D24 /* Write Icon.png */; };
+		D0EDBE6216582E18000C4D24 /* Anxious Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE6116582E18000C4D24 /* Anxious Icon.png */; };
+		D0EDBE6E165841EC000C4D24 /* sharp.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE6D165841EC000C4D24 /* sharp.jpeg */; };
 		D0EDBE7216584275000C4D24 /* eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE7116584275000C4D24 /* eraser.png */; };
+		D0EDBE79165845AA000C4D24 /* acupuncture2.gif in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE73165845AA000C4D24 /* acupuncture2.gif */; };
+		D0EDBE841658491F000C4D24 /* burning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE7F1658491F000C4D24 /* burning.jpg */; };
+		D0EDBE861658491F000C4D24 /* numb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE811658491F000C4D24 /* numb.jpg */; };
+		D0EDBE871658491F000C4D24 /* pressure.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE821658491F000C4D24 /* pressure.jpeg */; };
+		D0EDBE881658491F000C4D24 /* throbbing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE831658491F000C4D24 /* throbbing.jpg */; };
+		D0EDBE8A1658498B000C4D24 /* itchy_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0EDBE891658498B000C4D24 /* itchy_1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,11 +125,6 @@
 		41E03F8F1657278300D58F8B /* RightLegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightLegViewController.m; sourceTree = "<group>"; };
 		41E03F9116572B6600D58F8B /* RightArmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RightArmViewController.h; path = ../RightArmViewController.h; sourceTree = "<group>"; };
 		41E03F9216572B6600D58F8B /* RightArmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RightArmViewController.m; path = ../RightArmViewController.m; sourceTree = "<group>"; };
-		D0352CCF165A173A0073C9E6 /* Bleeding Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bleeding Blue.png"; sourceTree = "<group>"; };
-		D0352CD0165A173A0073C9E6 /* Burning Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Burning Blue.png"; sourceTree = "<group>"; };
-		D0352CD1165A173A0073C9E6 /* General Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "General Blue.png"; sourceTree = "<group>"; };
-		D0352CD2165A173A0073C9E6 /* Sharp Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sharp Blue.png"; sourceTree = "<group>"; };
-		D0352CD3165A173A0073C9E6 /* Throbbing Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Throbbing Blue.png"; sourceTree = "<group>"; };
 		D0D801751659999500C8E42E /* Full Body Front DONE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Full Body Front DONE.png"; sourceTree = "<group>"; };
 		D0D801761659999500C8E42E /* Head DONE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Head DONE.png"; sourceTree = "<group>"; };
 		D0D801771659999500C8E42E /* Left arm DONE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Left arm DONE.png"; sourceTree = "<group>"; };
@@ -116,18 +132,44 @@
 		D0D801791659999500C8E42E /* Right Arm DONE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Right Arm DONE.png"; sourceTree = "<group>"; };
 		D0D8017A1659999500C8E42E /* Right Leg DONE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Right Leg DONE.png"; sourceTree = "<group>"; };
 		D0D8017B1659999500C8E42E /* Torso DONE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Torso DONE.png"; sourceTree = "<group>"; };
-		D0D801841659D02E00C8E42E /* Bleeding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bleeding.png; sourceTree = "<group>"; };
-		D0D801851659D02E00C8E42E /* Burning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Burning.png; sourceTree = "<group>"; };
-		D0D801861659D02E00C8E42E /* General.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = General.png; sourceTree = "<group>"; };
-		D0D801871659D02E00C8E42E /* Sharp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sharp.png; sourceTree = "<group>"; };
-		D0D801881659D02E00C8E42E /* Throbbing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Throbbing.png; sourceTree = "<group>"; };
-		D0D8018E1659D6CD00C8E42E /* Depressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Depressed.png; sourceTree = "<group>"; };
-		D0D8018F1659D6CD00C8E42E /* Dizzy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dizzy.png; sourceTree = "<group>"; };
-		D0D801901659D6CD00C8E42E /* Drowziness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drowziness.png; sourceTree = "<group>"; };
-		D0D801911659D6CD00C8E42E /* Fever.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fever.png; sourceTree = "<group>"; };
-		D0D801921659D6CD00C8E42E /* Headache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Headache.png; sourceTree = "<group>"; };
-		D0D801931659D6CD00C8E42E /* Nauseaus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nauseaus.png; sourceTree = "<group>"; };
+		D0EDBE2416582BFF000C4D24 /* Anxious Icon Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Anxious Icon Blue.png"; sourceTree = "<group>"; };
+		D0EDBE2616582BFF000C4D24 /* Cold Icon Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cold Icon Blue.png"; sourceTree = "<group>"; };
+		D0EDBE2716582BFF000C4D24 /* Cold Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cold Icon.png"; sourceTree = "<group>"; };
+		D0EDBE2816582BFF000C4D24 /* Cup Icon Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cup Icon Blue.png"; sourceTree = "<group>"; };
+		D0EDBE2916582BFF000C4D24 /* Cup Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cup Icon.png"; sourceTree = "<group>"; };
+		D0EDBE2A16582BFF000C4D24 /* Hot Icon Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hot Icon Blue.png"; sourceTree = "<group>"; };
+		D0EDBE2B16582BFF000C4D24 /* Hot Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hot Icon.png"; sourceTree = "<group>"; };
+		D0EDBE2C16582BFF000C4D24 /* Hungry Icon Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hungry Icon Blue.png"; sourceTree = "<group>"; };
+		D0EDBE2D16582BFF000C4D24 /* Hungry Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hungry Icon.png"; sourceTree = "<group>"; };
+		D0EDBE2E16582BFF000C4D24 /* Itchy Icon Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Itchy Icon Blue.png"; sourceTree = "<group>"; };
+		D0EDBE2F16582BFF000C4D24 /* Itchy Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Itchy Icon.png"; sourceTree = "<group>"; };
+		D0EDBE3016582BFF000C4D24 /* Nausea Blue Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nausea Blue Icon.png"; sourceTree = "<group>"; };
+		D0EDBE3116582BFF000C4D24 /* Nausea Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nausea Icon.png"; sourceTree = "<group>"; };
+		D0EDBE3216582BFF000C4D24 /* tired Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tired Blue.png"; sourceTree = "<group>"; };
+		D0EDBE3316582BFF000C4D24 /* tired.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tired.png; sourceTree = "<group>"; };
+		D0EDBE3416582BFF000C4D24 /* Phone Icon Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Phone Icon Blue.png"; sourceTree = "<group>"; };
+		D0EDBE3516582BFF000C4D24 /* Phone Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Phone Icon.png"; sourceTree = "<group>"; };
+		D0EDBE3616582BFF000C4D24 /* Puke Icon Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Puke Icon Blue.png"; sourceTree = "<group>"; };
+		D0EDBE3716582BFF000C4D24 /* Puke Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Puke Icon.png"; sourceTree = "<group>"; };
+		D0EDBE3816582BFF000C4D24 /* Sleep Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sleep Icon.png"; sourceTree = "<group>"; };
+		D0EDBE3916582BFF000C4D24 /* Sleepy Icon Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sleepy Icon Blue.png"; sourceTree = "<group>"; };
+		D0EDBE3A16582BFF000C4D24 /* Toilet Icon Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Toilet Icon Blue.png"; sourceTree = "<group>"; };
+		D0EDBE3B16582BFF000C4D24 /* Toilet Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Toilet Icon.png"; sourceTree = "<group>"; };
+		D0EDBE3C16582BFF000C4D24 /* Too Sad Icon Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Too Sad Icon Blue.png"; sourceTree = "<group>"; };
+		D0EDBE3D16582BFF000C4D24 /* Too Sad Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Too Sad Icon.png"; sourceTree = "<group>"; };
+		D0EDBE3E16582BFF000C4D24 /* TV Icon Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TV Icon Blue.png"; sourceTree = "<group>"; };
+		D0EDBE3F16582BFF000C4D24 /* TV Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TV Icon.png"; sourceTree = "<group>"; };
+		D0EDBE4016582BFF000C4D24 /* Write Icon Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Write Icon Blue.png"; sourceTree = "<group>"; };
+		D0EDBE4116582BFF000C4D24 /* Write Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Write Icon.png"; sourceTree = "<group>"; };
+		D0EDBE6116582E18000C4D24 /* Anxious Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Anxious Icon.png"; sourceTree = "<group>"; };
+		D0EDBE6D165841EC000C4D24 /* sharp.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sharp.jpeg; sourceTree = "<group>"; };
 		D0EDBE7116584275000C4D24 /* eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser.png; sourceTree = "<group>"; };
+		D0EDBE73165845AA000C4D24 /* acupuncture2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = acupuncture2.gif; sourceTree = "<group>"; };
+		D0EDBE7F1658491F000C4D24 /* burning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burning.jpg; sourceTree = "<group>"; };
+		D0EDBE811658491F000C4D24 /* numb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = numb.jpg; sourceTree = "<group>"; };
+		D0EDBE821658491F000C4D24 /* pressure.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pressure.jpeg; sourceTree = "<group>"; };
+		D0EDBE831658491F000C4D24 /* throbbing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = throbbing.jpg; sourceTree = "<group>"; };
+		D0EDBE891658498B000C4D24 /* itchy_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itchy_1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,17 +246,17 @@
 				41D41B101655A990009D27D3 /* HeadViewController.m */,
 				41325D9E1652F5AA004BBD9B /* ViewController.h */,
 				41325D9F1652F5AA004BBD9B /* ViewController.m */,
-				D0D8018E1659D6CD00C8E42E /* Depressed.png */,
-				D0D8018F1659D6CD00C8E42E /* Dizzy.png */,
-				D0D801901659D6CD00C8E42E /* Drowziness.png */,
-				D0D801911659D6CD00C8E42E /* Fever.png */,
-				D0D801921659D6CD00C8E42E /* Headache.png */,
-				D0D801931659D6CD00C8E42E /* Nauseaus.png */,
-				D0352CCF165A173A0073C9E6 /* Bleeding Blue.png */,
-				D0352CD0165A173A0073C9E6 /* Burning Blue.png */,
-				D0352CD1165A173A0073C9E6 /* General Blue.png */,
-				D0352CD2165A173A0073C9E6 /* Sharp Blue.png */,
-				D0352CD3165A173A0073C9E6 /* Throbbing Blue.png */,
+				D0EDBE6116582E18000C4D24 /* Anxious Icon.png */,
+				D0EDBE2416582BFF000C4D24 /* Anxious Icon Blue.png */,
+				D0EDBE2616582BFF000C4D24 /* Cold Icon Blue.png */,
+				D0EDBE2716582BFF000C4D24 /* Cold Icon.png */,
+				D0EDBE2816582BFF000C4D24 /* Cup Icon Blue.png */,
+				D0EDBE2916582BFF000C4D24 /* Cup Icon.png */,
+				D0EDBE2A16582BFF000C4D24 /* Hot Icon Blue.png */,
+				D0EDBE2B16582BFF000C4D24 /* Hot Icon.png */,
+				D0EDBE2C16582BFF000C4D24 /* Hungry Icon Blue.png */,
+				D0EDBE2D16582BFF000C4D24 /* Hungry Icon.png */,
+				D0EDBE2E16582BFF000C4D24 /* Itchy Icon Blue.png */,
 				D0D801751659999500C8E42E /* Full Body Front DONE.png */,
 				D0D801761659999500C8E42E /* Head DONE.png */,
 				D0D801771659999500C8E42E /* Left arm DONE.png */,
@@ -222,14 +264,35 @@
 				D0D801791659999500C8E42E /* Right Arm DONE.png */,
 				D0D8017A1659999500C8E42E /* Right Leg DONE.png */,
 				D0D8017B1659999500C8E42E /* Torso DONE.png */,
-				D0D801841659D02E00C8E42E /* Bleeding.png */,
-				D0D801851659D02E00C8E42E /* Burning.png */,
-				D0D801861659D02E00C8E42E /* General.png */,
-				D0D801871659D02E00C8E42E /* Sharp.png */,
-				D0D801881659D02E00C8E42E /* Throbbing.png */,
+				D0EDBE2F16582BFF000C4D24 /* Itchy Icon.png */,
+				D0EDBE3016582BFF000C4D24 /* Nausea Blue Icon.png */,
+				D0EDBE3116582BFF000C4D24 /* Nausea Icon.png */,
+				D0EDBE3216582BFF000C4D24 /* tired Blue.png */,
+				D0EDBE3316582BFF000C4D24 /* tired.png */,
+				D0EDBE3416582BFF000C4D24 /* Phone Icon Blue.png */,
+				D0EDBE3516582BFF000C4D24 /* Phone Icon.png */,
+				D0EDBE3616582BFF000C4D24 /* Puke Icon Blue.png */,
+				D0EDBE3716582BFF000C4D24 /* Puke Icon.png */,
+				D0EDBE3816582BFF000C4D24 /* Sleep Icon.png */,
+				D0EDBE3916582BFF000C4D24 /* Sleepy Icon Blue.png */,
+				D0EDBE3A16582BFF000C4D24 /* Toilet Icon Blue.png */,
+				D0EDBE3B16582BFF000C4D24 /* Toilet Icon.png */,
+				D0EDBE3C16582BFF000C4D24 /* Too Sad Icon Blue.png */,
+				D0EDBE3D16582BFF000C4D24 /* Too Sad Icon.png */,
+				D0EDBE3E16582BFF000C4D24 /* TV Icon Blue.png */,
+				D0EDBE3F16582BFF000C4D24 /* TV Icon.png */,
+				D0EDBE4016582BFF000C4D24 /* Write Icon Blue.png */,
+				D0EDBE4116582BFF000C4D24 /* Write Icon.png */,
 				41D41B0B16559409009D27D3 /* Check.png */,
 				41C9341A1655C069009A51EA /* Transparent.png */,
 				D0EDBE7116584275000C4D24 /* eraser.png */,
+				D0EDBE891658498B000C4D24 /* itchy_1.png */,
+				D0EDBE73165845AA000C4D24 /* acupuncture2.gif */,
+				D0EDBE7F1658491F000C4D24 /* burning.jpg */,
+				D0EDBE811658491F000C4D24 /* numb.jpg */,
+				D0EDBE821658491F000C4D24 /* pressure.jpeg */,
+				D0EDBE831658491F000C4D24 /* throbbing.jpg */,
+				D0EDBE6D165841EC000C4D24 /* sharp.jpeg */,
 				41325D8A1652F5AA004BBD9B /* Supporting Files */,
 			);
 			path = PainPointer;
@@ -346,7 +409,44 @@
 				41325D9D1652F5AA004BBD9B /* MainStoryboard.storyboard in Resources */,
 				41D41B0C16559409009D27D3 /* Check.png in Resources */,
 				41C9341B1655C069009A51EA /* Transparent.png in Resources */,
+				D0EDBE4216582BFF000C4D24 /* Anxious Icon Blue.png in Resources */,
+				D0EDBE4416582BFF000C4D24 /* Cold Icon Blue.png in Resources */,
+				D0EDBE4516582BFF000C4D24 /* Cold Icon.png in Resources */,
+				D0EDBE4616582BFF000C4D24 /* Cup Icon Blue.png in Resources */,
+				D0EDBE4716582BFF000C4D24 /* Cup Icon.png in Resources */,
+				D0EDBE4816582BFF000C4D24 /* Hot Icon Blue.png in Resources */,
+				D0EDBE4916582BFF000C4D24 /* Hot Icon.png in Resources */,
+				D0EDBE4A16582BFF000C4D24 /* Hungry Icon Blue.png in Resources */,
+				D0EDBE4B16582BFF000C4D24 /* Hungry Icon.png in Resources */,
+				D0EDBE4C16582BFF000C4D24 /* Itchy Icon Blue.png in Resources */,
+				D0EDBE4D16582BFF000C4D24 /* Itchy Icon.png in Resources */,
+				D0EDBE4E16582BFF000C4D24 /* Nausea Blue Icon.png in Resources */,
+				D0EDBE4F16582BFF000C4D24 /* Nausea Icon.png in Resources */,
+				D0EDBE5016582BFF000C4D24 /* tired Blue.png in Resources */,
+				D0EDBE5116582BFF000C4D24 /* tired.png in Resources */,
+				D0EDBE5216582BFF000C4D24 /* Phone Icon Blue.png in Resources */,
+				D0EDBE5316582BFF000C4D24 /* Phone Icon.png in Resources */,
+				D0EDBE5416582BFF000C4D24 /* Puke Icon Blue.png in Resources */,
+				D0EDBE5516582BFF000C4D24 /* Puke Icon.png in Resources */,
+				D0EDBE5616582BFF000C4D24 /* Sleep Icon.png in Resources */,
+				D0EDBE5716582BFF000C4D24 /* Sleepy Icon Blue.png in Resources */,
+				D0EDBE5816582BFF000C4D24 /* Toilet Icon Blue.png in Resources */,
+				D0EDBE5916582BFF000C4D24 /* Toilet Icon.png in Resources */,
+				D0EDBE5A16582BFF000C4D24 /* Too Sad Icon Blue.png in Resources */,
+				D0EDBE5B16582BFF000C4D24 /* Too Sad Icon.png in Resources */,
+				D0EDBE5C16582BFF000C4D24 /* TV Icon Blue.png in Resources */,
+				D0EDBE5D16582BFF000C4D24 /* TV Icon.png in Resources */,
+				D0EDBE5E16582BFF000C4D24 /* Write Icon Blue.png in Resources */,
+				D0EDBE5F16582BFF000C4D24 /* Write Icon.png in Resources */,
+				D0EDBE6216582E18000C4D24 /* Anxious Icon.png in Resources */,
+				D0EDBE6E165841EC000C4D24 /* sharp.jpeg in Resources */,
 				D0EDBE7216584275000C4D24 /* eraser.png in Resources */,
+				D0EDBE79165845AA000C4D24 /* acupuncture2.gif in Resources */,
+				D0EDBE841658491F000C4D24 /* burning.jpg in Resources */,
+				D0EDBE861658491F000C4D24 /* numb.jpg in Resources */,
+				D0EDBE871658491F000C4D24 /* pressure.jpeg in Resources */,
+				D0EDBE881658491F000C4D24 /* throbbing.jpg in Resources */,
+				D0EDBE8A1658498B000C4D24 /* itchy_1.png in Resources */,
 				D0D8017C1659999500C8E42E /* Full Body Front DONE.png in Resources */,
 				D0D8017D1659999500C8E42E /* Head DONE.png in Resources */,
 				D0D8017E1659999500C8E42E /* Left arm DONE.png in Resources */,
@@ -354,22 +454,6 @@
 				D0D801801659999500C8E42E /* Right Arm DONE.png in Resources */,
 				D0D801811659999500C8E42E /* Right Leg DONE.png in Resources */,
 				D0D801821659999500C8E42E /* Torso DONE.png in Resources */,
-				D0D801891659D02E00C8E42E /* Bleeding.png in Resources */,
-				D0D8018A1659D02E00C8E42E /* Burning.png in Resources */,
-				D0D8018B1659D02E00C8E42E /* General.png in Resources */,
-				D0D8018C1659D02E00C8E42E /* Sharp.png in Resources */,
-				D0D8018D1659D02E00C8E42E /* Throbbing.png in Resources */,
-				D0D801941659D6CD00C8E42E /* Depressed.png in Resources */,
-				D0D801951659D6CD00C8E42E /* Dizzy.png in Resources */,
-				D0D801961659D6CD00C8E42E /* Drowziness.png in Resources */,
-				D0D801971659D6CD00C8E42E /* Fever.png in Resources */,
-				D0D801981659D6CD00C8E42E /* Headache.png in Resources */,
-				D0D801991659D6CD00C8E42E /* Nauseaus.png in Resources */,
-				D0352CD4165A173A0073C9E6 /* Bleeding Blue.png in Resources */,
-				D0352CD5165A173A0073C9E6 /* Burning Blue.png in Resources */,
-				D0352CD6165A173A0073C9E6 /* General Blue.png in Resources */,
-				D0352CD7165A173A0073C9E6 /* Sharp Blue.png in Resources */,
-				D0352CD8165A173A0073C9E6 /* Throbbing Blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

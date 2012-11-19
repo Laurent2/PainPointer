@@ -10,8 +10,22 @@
 
 @interface LeftArmViewController : UIViewController {
     
+    IBOutlet UIImageView *area_sharp;
+    IBOutlet UIImageView *area_throbbing;
+    IBOutlet UIImageView *area_numb;
+    IBOutlet UIImageView *area_burning;
+    IBOutlet UIImageView *area_pressure;
+    IBOutlet UIImageView *area_tingling;
+    IBOutlet UIImageView *area_itchy;
 }
 
+@property (nonatomic, retain) UIImageView *area_sharp;
+@property (nonatomic, retain) UIImageView *area_throbbing;
+@property (nonatomic, retain) UIImageView *area_numb;
+@property (nonatomic, retain) UIImageView *area_burning;
+@property (nonatomic, retain) UIImageView *area_pressure;
+@property (nonatomic, retain) UIImageView *area_tingling;
+@property (nonatomic, retain) UIImageView *area_itchy;
 
 @property (weak, nonatomic) IBOutlet UIButton *buttonSharp;
 @property (weak, nonatomic) IBOutlet UIButton *buttonThrobbing;
